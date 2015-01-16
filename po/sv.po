@@ -7,304 +7,234 @@ msgid ""
 msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 08:01+0200\n"
+"POT-Creation-Date: 2015-01-16 09:40+0100\n"
 "PO-Revision-Date: 2013-06-17 10:02+0000\n"
 "Last-Translator: Joachim Johansson <Unknown>\n"
 "Language-Team: Swedish <sv@li.org>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-03-15 07:10+0000\n"
 "X-Generator: Launchpad (build 16963)\n"
-"Language: sv\n"
 
-#: ../src/desktop-launcher.vala:13
-msgid "Download and view feeds"
-msgstr "Hämta och visa flöden"
+msgid "Add new folder"
+msgstr ""
 
-#: ../src/desktop-launcher.vala:14
-msgid "Feedler News Reader"
-msgstr "Feedler nyhetsläsare"
+#, fuzzy
+msgid "Add new subscription"
+msgstr "Lägg till prenumerationslänk"
 
-#: ../src/indicator.vala:24 ../src/ui/menu.vala:11
-msgid "Update"
-msgstr "Uppdatera"
+msgid "Add new.."
+msgstr ""
 
-#: ../src/indicator.vala:28
-msgid "Unread"
-msgstr "Olästa"
+msgid "Fullscreen"
+msgstr "Fullskärm"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feeds"
-msgstr "nya flöden"
+msgid "Go to the channel with unread items"
+msgstr "Visa kanal med olästa artiklar"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feed"
-msgstr "nytt flöde"
+#, fuzzy
+msgid "Import subscription from file"
+msgstr "Importera prenumeration från OPML-fil"
 
-#: ../src/window.vala:330
 #, c-format
 msgid "Imported %i channels in %i folders."
 msgstr "Importerade %i kanaler i %i mappar."
 
-#: ../src/window.vala:483 ../src/window.vala:509
-msgid "Updating subscriptions"
-msgstr "Uppdaterar prenumerationer"
-
-#: ../src/window.vala:503
-#, c-format
-msgid "Updating %s"
-msgstr "Uppdaterar %s"
-
-#: ../src/window.vala:526 ../src/window.vala:541
-msgid "Downloading favicons"
-msgstr "Laddar ner favikoner"
-
-#: ../src/window.vala:579
 msgid "Importing subscriptions"
 msgstr "Importerar prenumerationer"
 
-#: ../src/window.vala:633 ../src/window.vala:655
-msgid "Are you sure you want to mark as read?"
-msgstr "Är du säker på att du vill markera som läst?"
-
-#: ../src/window.vala:674
-msgid "Are you sure you want to delete?"
-msgstr "Är du säker på att du vill ta bort?"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Get Some Feeds"
-msgstr "Lägg till prenumerationer"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Feedler can't seem to find your feeds."
-msgstr "Feedler verkar inte kunna hitta dina flöden."
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Create"
-msgstr "Skapa"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Add manually subscriptions from URL."
-msgstr "Lägg till prenumerationer manuellt från en länk."
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Import"
-msgstr "Importera"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Add a subscriptions from OPML file."
-msgstr "Lägg till prenumerationer från en OPML-fil."
-
-#: ../src/ui/contractor.vala:23
-msgid "Share channels or items"
-msgstr "Dela kanaler eller artiklar"
-
-#: ../src/ui/contractor.vala:38
-msgid "Export subscriptions"
-msgstr "Exportera prenumerationer"
-
-#: ../src/ui/folder.vala:24 ../src/ui/folder.vala:40
-#: ../src/ui/subscription.vala:29 ../src/ui/subscription.vala:52
-#, c-format
-msgid "Name"
-msgstr "Namn"
-
-#: ../src/ui/folder.vala:26 ../src/ui/subscription.vala:32
-msgid "Save"
-msgstr "Spara"
-
-#: ../src/ui/folder.vala:30 ../src/ui/subscription.vala:36
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: ../src/ui/infobar.vala:21
-msgid "Dismiss"
-msgstr "Avbryt"
-
-#: ../src/ui/infobar.vala:24
-msgid "Undo"
-msgstr "Ångra"
-
-#: ../src/ui/menu.vala:12 ../src/ui/menu.vala:39
-msgid "Mark as read"
-msgstr "Markera som läst"
-
-#: ../src/ui/menu.vala:13
-msgid "Delete"
-msgstr "Ta bort"
-
-#: ../src/ui/menu.vala:14
-msgid "Properties"
-msgstr "Egenskaper"
-
-#: ../src/ui/menu.vala:15
-msgid "New"
-msgstr "Nytt"
-
-#: ../src/ui/menu.vala:16
-msgid "Subscription"
-msgstr "Prenumeration"
-
-#: ../src/ui/menu.vala:17 ../src/ui/subscription.vala:49
-#, c-format
-msgid "Folder"
-msgstr "Mapp"
-
-#: ../src/ui/menu.vala:37
-msgid "Display"
-msgstr "Visa"
-
-#: ../src/ui/menu.vala:38
-msgid "Open in browser"
-msgstr "Öppna i webbläsaren"
-
-#: ../src/ui/menu.vala:40
-msgid "Mark as unread"
-msgstr "Markera som oläst"
-
-#: ../src/ui/preferences.vala:60
-msgid "Content:"
-msgstr "Innehåll:"
-
-#: ../src/ui/preferences.vala:61
-msgid "Enable images:"
-msgstr "Aktivera bilder:"
-
-#: ../src/ui/preferences.vala:62
-msgid "Shrink image to fit:"
-msgstr "Minsta bilden för att passa:"
-
-#: ../src/ui/preferences.vala:63
-msgid "Enable plugins:"
-msgstr "Aktivera plugins:"
-
-#: ../src/ui/preferences.vala:64
-msgid "Enable JavaScripts:"
-msgstr "Aktivera Javascript:"
-
-#: ../src/ui/preferences.vala:65
-msgid "Enable Java:"
-msgstr "Aktivera Java:"
-
-#: ../src/ui/preferences.vala:66
-msgid "Window:"
-msgstr "Fönster:"
-
-#: ../src/ui/preferences.vala:67
-msgid "Hiding window instead of closing:"
-msgstr "Gömma fönster istället för att stänga:"
-
-#: ../src/ui/preferences.vala:68
-msgid "Hide window on start to the messaging menu:"
-msgstr ""
-
-#: ../src/ui/preferences.vala:86
-msgid "Subscriptions:"
-msgstr "Prenumerationer :"
-
-#: ../src/ui/preferences.vala:87
-msgid "Enable automatic updates:"
-msgstr "Aktivera automatiska uppdateringar:"
-
-#: ../src/ui/preferences.vala:88
-msgid "Enable updates on start:"
-msgstr "Aktivera uppdateringar vid uppstart:"
-
-#: ../src/ui/preferences.vala:89
-msgid "Time interval between updates:"
-msgstr "Tidsintervall mellan uppdateringar:"
-
-#: ../src/ui/preferences.vala:90
-msgid "Favicons:"
-msgstr "Favikoner:"
-
-#: ../src/ui/preferences.vala:91
-msgid "Download now all favicons:"
-msgstr "Ladda ner nu alla favikoner:"
-
-#: ../src/ui/preferences.vala:104 ../src/ui/toolbar.vala:64
-msgid "Preferences"
-msgstr "Inställningar"
-
-#: ../src/ui/preferences.vala:110
-msgid "Behavior"
-msgstr "Beteende"
-
-#: ../src/ui/preferences.vala:111
-msgid "Updates"
-msgstr "Uppdateringar"
-
-#: ../src/ui/statusbar.vala:49
-msgid "Add new subscription URL"
-msgstr "Lägg till prenumerationslänk"
-
-#: ../src/ui/statusbar.vala:52
-msgid "Remove selected subscription"
-msgstr "Avsluta den markerade prenumerationen"
-
-#: ../src/ui/statusbar.vala:55
-msgid "Import subscription from OPML"
-msgstr "Importera prenumeration från OPML-fil"
-
-#: ../src/ui/statusbar.vala:58
-msgid "Go to the channel with unread items"
-msgstr "Visa kanal med olästa artiklar"
-
-#: ../src/ui/statusbar.vala:61
 msgid "Mark all items as read"
 msgstr "Markera alla artiklar som lästa"
 
-#: ../src/ui/statusbar.vala:74
-msgid "unread feeds"
-msgstr "olästa prenumerationer"
-
-#: ../src/ui/statusbar.vala:74
-msgid "unread feed"
-msgstr "oläst prenumeration"
-
-#: ../src/ui/subscription.vala:30
-msgid "URI"
-msgstr "URI"
-
-#: ../src/ui/subscription.vala:40
-msgid "Load favicon"
-msgstr "Ladda favikon"
-
-#: ../src/ui/subscription.vala:56
-#, c-format
-msgid "URI Address"
-msgstr "URI Adress"
-
-#: ../src/ui/toolbar.vala:57
-msgid "Type to Search..."
-msgstr "Skriv för att söka..."
-
-#: ../src/ui/toolbar.vala:62
-msgid "Sidebar Visible"
-msgstr "Sidopanelen synlig"
-
-#: ../src/ui/toolbar.vala:63
-msgid "Fullscreen"
-msgstr "Fullskärm"
-
-#: ../src/ui/toolbar.vala:97
-msgid "Go to the previous readed item"
-msgstr "Visa föregående lästa artikel"
-
-#: ../src/ui/toolbar.vala:98
-msgid "Go to the next readed item"
-msgstr "Visa nästa läsa artikel"
-
-#: ../src/ui/toolbar.vala:99
-msgid "Refresh all subscriptions"
-msgstr "Uppdatera alla prenumerationer"
-
-#: ../src/ui/toolbar.vala:100
 msgid "Menu"
 msgstr "Meny"
 
-#: ../src/ui/view-cell.vala:53
-#, c-format
-msgid "%s, by %s"
-msgstr "%s, av %s"
+msgid "Preferences"
+msgstr "Inställningar"
+
+msgid "Refresh all subscriptions"
+msgstr "Uppdatera alla prenumerationer"
+
+#. internal Feedler.ContractorButton sharemenu;
+msgid "Sidebar Visible"
+msgstr "Sidopanelen synlig"
+
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Prenumerationer :"
+
+msgid "Type to Search..."
+msgstr "Skriv för att söka..."
+
+msgid "Updating subscriptions"
+msgstr "Uppdaterar prenumerationer"
+
+msgid "new feed"
+msgstr "nytt flöde"
+
+msgid "new feeds"
+msgstr "nya flöden"
+
+msgid "unread feed"
+msgstr "oläst prenumeration"
+
+msgid "unread feeds"
+msgstr "olästa prenumerationer"
+
+#~ msgid "%s, by %s"
+#~ msgstr "%s, av %s"
+
+#~ msgid "Add a subscriptions from OPML file."
+#~ msgstr "Lägg till prenumerationer från en OPML-fil."
+
+#~ msgid "Add manually subscriptions from URL."
+#~ msgstr "Lägg till prenumerationer manuellt från en länk."
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Är du säker på att du vill ta bort?"
+
+#~ msgid "Are you sure you want to mark as read?"
+#~ msgstr "Är du säker på att du vill markera som läst?"
+
+#~ msgid "Behavior"
+#~ msgstr "Beteende"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Content:"
+#~ msgstr "Innehåll:"
+
+#~ msgid "Create"
+#~ msgstr "Skapa"
+
+#~ msgid "Delete"
+#~ msgstr "Ta bort"
+
+#~ msgid "Dismiss"
+#~ msgstr "Avbryt"
+
+#~ msgid "Display"
+#~ msgstr "Visa"
+
+#~ msgid "Download and view feeds"
+#~ msgstr "Hämta och visa flöden"
+
+#~ msgid "Download now all favicons:"
+#~ msgstr "Ladda ner nu alla favikoner:"
+
+#~ msgid "Downloading favicons"
+#~ msgstr "Laddar ner favikoner"
+
+#~ msgid "Enable Java:"
+#~ msgstr "Aktivera Java:"
+
+#~ msgid "Enable JavaScripts:"
+#~ msgstr "Aktivera Javascript:"
+
+#~ msgid "Enable automatic updates:"
+#~ msgstr "Aktivera automatiska uppdateringar:"
+
+#~ msgid "Enable images:"
+#~ msgstr "Aktivera bilder:"
+
+#~ msgid "Enable plugins:"
+#~ msgstr "Aktivera plugins:"
+
+#~ msgid "Enable updates on start:"
+#~ msgstr "Aktivera uppdateringar vid uppstart:"
+
+#~ msgid "Export subscriptions"
+#~ msgstr "Exportera prenumerationer"
+
+#~ msgid "Favicons:"
+#~ msgstr "Favikoner:"
+
+#~ msgid "Feedler News Reader"
+#~ msgstr "Feedler nyhetsläsare"
+
+#~ msgid "Feedler can't seem to find your feeds."
+#~ msgstr "Feedler verkar inte kunna hitta dina flöden."
+
+#~ msgid "Folder"
+#~ msgstr "Mapp"
+
+#~ msgid "Get Some Feeds"
+#~ msgstr "Lägg till prenumerationer"
+
+#~ msgid "Go to the next readed item"
+#~ msgstr "Visa nästa läsa artikel"
+
+#~ msgid "Go to the previous readed item"
+#~ msgstr "Visa föregående lästa artikel"
+
+#~ msgid "Hiding window instead of closing:"
+#~ msgstr "Gömma fönster istället för att stänga:"
+
+#~ msgid "Import"
+#~ msgstr "Importera"
+
+#~ msgid "Load favicon"
+#~ msgstr "Ladda favikon"
+
+#~ msgid "Mark as read"
+#~ msgstr "Markera som läst"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Markera som oläst"
+
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#~ msgid "New"
+#~ msgstr "Nytt"
+
+#~ msgid "Open in browser"
+#~ msgstr "Öppna i webbläsaren"
+
+#~ msgid "Properties"
+#~ msgstr "Egenskaper"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Avsluta den markerade prenumerationen"
+
+#~ msgid "Save"
+#~ msgstr "Spara"
+
+#~ msgid "Share channels or items"
+#~ msgstr "Dela kanaler eller artiklar"
+
+#~ msgid "Shrink image to fit:"
+#~ msgstr "Minsta bilden för att passa:"
+
+#~ msgid "Subscription"
+#~ msgstr "Prenumeration"
+
+#~ msgid "Time interval between updates:"
+#~ msgstr "Tidsintervall mellan uppdateringar:"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "URI Address"
+#~ msgstr "URI Adress"
+
+#~ msgid "Undo"
+#~ msgstr "Ångra"
+
+#~ msgid "Unread"
+#~ msgstr "Olästa"
+
+#~ msgid "Update"
+#~ msgstr "Uppdatera"
+
+#~ msgid "Updates"
+#~ msgstr "Uppdateringar"
+
+#~ msgid "Updating %s"
+#~ msgstr "Uppdaterar %s"
+
+#~ msgid "Window:"
+#~ msgstr "Fönster:"

@@ -7,304 +7,237 @@ msgid ""
 msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 08:01+0200\n"
+"POT-Creation-Date: 2015-01-16 09:40+0100\n"
 "PO-Revision-Date: 2012-08-02 06:00+0000\n"
 "Last-Translator: Filippos Kolyvas <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-03-15 07:10+0000\n"
 "X-Generator: Launchpad (build 16963)\n"
-"Language: el\n"
 
-#: ../src/desktop-launcher.vala:13
-msgid "Download and view feeds"
-msgstr "Λήψη και προβολή ροών ειδήσεων/ιστολογίων"
+msgid "Add new folder"
+msgstr ""
 
-#: ../src/desktop-launcher.vala:14
-msgid "Feedler News Reader"
-msgstr "Αναγνώστης ειδήσεων Feedler"
+#, fuzzy
+msgid "Add new subscription"
+msgstr "Πρόσθεση νέας διεύθυνσης URL συνδρομής"
 
-#: ../src/indicator.vala:24 ../src/ui/menu.vala:11
-msgid "Update"
-msgstr "Ενημέρωση"
+msgid "Add new.."
+msgstr ""
 
-#: ../src/indicator.vala:28
-msgid "Unread"
-msgstr "Μη αναγνωσμένα"
+msgid "Fullscreen"
+msgstr "Πλήρης οθόνη"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feeds"
-msgstr "νέες ροές"
+msgid "Go to the channel with unread items"
+msgstr "Μετάβαση στο κανάλι με τα μη διαβασμένα αντικείμενα"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feed"
-msgstr "νέα ροή"
+#, fuzzy
+msgid "Import subscription from file"
+msgstr "Εισαγωγή συνδρομής από OPML"
 
-#: ../src/window.vala:330
 #, c-format
 msgid "Imported %i channels in %i folders."
 msgstr "Εισήχθησαν %i κανάλια σε %i φακέλους."
 
-#: ../src/window.vala:483 ../src/window.vala:509
-msgid "Updating subscriptions"
-msgstr "Γίνετα ενημέρωση συνδρομών"
-
-#: ../src/window.vala:503
-#, c-format
-msgid "Updating %s"
-msgstr "Ενημέρωση %s"
-
-#: ../src/window.vala:526 ../src/window.vala:541
-msgid "Downloading favicons"
-msgstr "Λήψη favicons"
-
-#: ../src/window.vala:579
 msgid "Importing subscriptions"
 msgstr "Εισαγωγή συνδρομών"
 
-#: ../src/window.vala:633 ../src/window.vala:655
-msgid "Are you sure you want to mark as read?"
-msgstr "Θέλετε σίγουρα να σημειώσετε την είδηση ως διαβασμένη;"
-
-#: ../src/window.vala:674
-msgid "Are you sure you want to delete?"
-msgstr "Είσαστε σίγουροι πως θέλετε τη διαγραφή;"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Get Some Feeds"
-msgstr "Λήψη ροών"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Feedler can't seem to find your feeds."
-msgstr "Η εφαρμογή Feedlerφαίνεται να μη μπορεί να βρει τις ροές σας."
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Create"
-msgstr "Δημιουργία"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Add manually subscriptions from URL."
-msgstr "Χειροκίνητη πρόσθεση ροών από διεύθυνση URL."
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Import"
-msgstr "Εισαγωγή"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Add a subscriptions from OPML file."
-msgstr "Πρόσθεση συνδρομών από αρχείο τύπου OPML."
-
-#: ../src/ui/contractor.vala:23
-msgid "Share channels or items"
-msgstr "Διαμοιρασμός καναλιών ή αντικειμένων"
-
-#: ../src/ui/contractor.vala:38
-msgid "Export subscriptions"
-msgstr "Εξαγωγή συνδρομών"
-
-#: ../src/ui/folder.vala:24 ../src/ui/folder.vala:40
-#: ../src/ui/subscription.vala:29 ../src/ui/subscription.vala:52
-#, c-format
-msgid "Name"
-msgstr "Όνομα"
-
-#: ../src/ui/folder.vala:26 ../src/ui/subscription.vala:32
-msgid "Save"
-msgstr "Αποθήκευση"
-
-#: ../src/ui/folder.vala:30 ../src/ui/subscription.vala:36
-msgid "Cancel"
-msgstr "Ακύρωση"
-
-#: ../src/ui/infobar.vala:21
-msgid "Dismiss"
-msgstr "Ματαίωση"
-
-#: ../src/ui/infobar.vala:24
-msgid "Undo"
-msgstr "Αναίρεση ενέργειας"
-
-#: ../src/ui/menu.vala:12 ../src/ui/menu.vala:39
-msgid "Mark as read"
-msgstr "Σημείωση είδησης ως διαβασμένης"
-
-#: ../src/ui/menu.vala:13
-msgid "Delete"
-msgstr "Διαγραφή"
-
-#: ../src/ui/menu.vala:14
-msgid "Properties"
-msgstr "Ιδιότητες"
-
-#: ../src/ui/menu.vala:15
-msgid "New"
-msgstr "Νέο"
-
-#: ../src/ui/menu.vala:16
-msgid "Subscription"
-msgstr "Συνδρομή"
-
-#: ../src/ui/menu.vala:17 ../src/ui/subscription.vala:49
-#, c-format
-msgid "Folder"
-msgstr "Φάκελος"
-
-#: ../src/ui/menu.vala:37
-msgid "Display"
-msgstr "Απεικόνιση"
-
-#: ../src/ui/menu.vala:38
-msgid "Open in browser"
-msgstr "Άνοιγμα στον περιηγητή"
-
-#: ../src/ui/menu.vala:40
-msgid "Mark as unread"
-msgstr "Σημείωση είδησης ως μη διαβασμένης"
-
-#: ../src/ui/preferences.vala:60
-msgid "Content:"
-msgstr "Περιεχόμενο:"
-
-#: ../src/ui/preferences.vala:61
-msgid "Enable images:"
-msgstr "Ενεργοποίηση εικόνων:"
-
-#: ../src/ui/preferences.vala:62
-msgid "Shrink image to fit:"
-msgstr "Συρρίκνωση εικόνας ώστε να χωρά:"
-
-#: ../src/ui/preferences.vala:63
-msgid "Enable plugins:"
-msgstr "Ενεργοποίηση προσθέτων:"
-
-#: ../src/ui/preferences.vala:64
-msgid "Enable JavaScripts:"
-msgstr "Ενεργοποίηση JavaScripts:"
-
-#: ../src/ui/preferences.vala:65
-msgid "Enable Java:"
-msgstr "Ενεργοποίηση Java:"
-
-#: ../src/ui/preferences.vala:66
-msgid "Window:"
-msgstr "Παράθυρο:"
-
-#: ../src/ui/preferences.vala:67
-msgid "Hiding window instead of closing:"
-msgstr "Απόκρυψη παραθύρου αντί του κλεισίματός του:"
-
-#: ../src/ui/preferences.vala:68
-msgid "Hide window on start to the messaging menu:"
-msgstr "Απόκρυψη παραθύρου κατά την έναρξη στο μενού μηνυμάτων:"
-
-#: ../src/ui/preferences.vala:86
-msgid "Subscriptions:"
-msgstr "Συνδρομές:"
-
-#: ../src/ui/preferences.vala:87
-msgid "Enable automatic updates:"
-msgstr "Ενεργοποίηση αυτομάτων ενημερώσεων:"
-
-#: ../src/ui/preferences.vala:88
-msgid "Enable updates on start:"
-msgstr "Ενεργοποίηση ενημερώσεων κατά την έναρξη:"
-
-#: ../src/ui/preferences.vala:89
-msgid "Time interval between updates:"
-msgstr "Χρονικό διάστημα μεταξύ ενημερώσεων:"
-
-#: ../src/ui/preferences.vala:90
-msgid "Favicons:"
-msgstr "Favicons:"
-
-#: ../src/ui/preferences.vala:91
-msgid "Download now all favicons:"
-msgstr "Άμεση λήψη όλων των favicons:"
-
-#: ../src/ui/preferences.vala:104 ../src/ui/toolbar.vala:64
-msgid "Preferences"
-msgstr "Προτιμήσεις"
-
-#: ../src/ui/preferences.vala:110
-msgid "Behavior"
-msgstr "Συμπεριφορά"
-
-#: ../src/ui/preferences.vala:111
-msgid "Updates"
-msgstr "Ενημερώσεις"
-
-#: ../src/ui/statusbar.vala:49
-msgid "Add new subscription URL"
-msgstr "Πρόσθεση νέας διεύθυνσης URL συνδρομής"
-
-#: ../src/ui/statusbar.vala:52
-msgid "Remove selected subscription"
-msgstr "Απομάκρυνση επιβληθείσας συνδρομής"
-
-#: ../src/ui/statusbar.vala:55
-msgid "Import subscription from OPML"
-msgstr "Εισαγωγή συνδρομής από OPML"
-
-#: ../src/ui/statusbar.vala:58
-msgid "Go to the channel with unread items"
-msgstr "Μετάβαση στο κανάλι με τα μη διαβασμένα αντικείμενα"
-
-#: ../src/ui/statusbar.vala:61
 msgid "Mark all items as read"
 msgstr "Σημείωση όλων των αντικειμένων ως διαβασμένα"
 
-#: ../src/ui/statusbar.vala:74
-msgid "unread feeds"
-msgstr "μη διαβασμένες ροές"
-
-#: ../src/ui/statusbar.vala:74
-msgid "unread feed"
-msgstr "μη διαβασμένη ροή"
-
-#: ../src/ui/subscription.vala:30
-msgid "URI"
-msgstr "URI"
-
-#: ../src/ui/subscription.vala:40
-msgid "Load favicon"
-msgstr "Φόρτωση favicon"
-
-#: ../src/ui/subscription.vala:56
-#, c-format
-msgid "URI Address"
-msgstr "Διεύθυνση URI"
-
-#: ../src/ui/toolbar.vala:57
-msgid "Type to Search..."
-msgstr "Πληκτρολογήστε για την αναζήτηση..."
-
-#: ../src/ui/toolbar.vala:62
-msgid "Sidebar Visible"
-msgstr "Ορατή πλευρική στήλη"
-
-#: ../src/ui/toolbar.vala:63
-msgid "Fullscreen"
-msgstr "Πλήρης οθόνη"
-
-#: ../src/ui/toolbar.vala:97
-msgid "Go to the previous readed item"
-msgstr "Μετάβαση στο προηγουμένως διαβασμένο αντικείμενο"
-
-#: ../src/ui/toolbar.vala:98
-msgid "Go to the next readed item"
-msgstr "Μετάβαση στο επόμενο διαβασμένο αντικείμενο"
-
-#: ../src/ui/toolbar.vala:99
-msgid "Refresh all subscriptions"
-msgstr "Ανανέωση όλων των συνδρομών"
-
-#: ../src/ui/toolbar.vala:100
 msgid "Menu"
 msgstr "Μενού"
 
-#: ../src/ui/view-cell.vala:53
-#, c-format
-msgid "%s, by %s"
-msgstr "%s, από %s"
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+msgid "Refresh all subscriptions"
+msgstr "Ανανέωση όλων των συνδρομών"
+
+#. internal Feedler.ContractorButton sharemenu;
+msgid "Sidebar Visible"
+msgstr "Ορατή πλευρική στήλη"
+
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Συνδρομές:"
+
+msgid "Type to Search..."
+msgstr "Πληκτρολογήστε για την αναζήτηση..."
+
+msgid "Updating subscriptions"
+msgstr "Γίνετα ενημέρωση συνδρομών"
+
+msgid "new feed"
+msgstr "νέα ροή"
+
+msgid "new feeds"
+msgstr "νέες ροές"
+
+msgid "unread feed"
+msgstr "μη διαβασμένη ροή"
+
+msgid "unread feeds"
+msgstr "μη διαβασμένες ροές"
+
+#~ msgid "%s, by %s"
+#~ msgstr "%s, από %s"
+
+#~ msgid "Add a subscriptions from OPML file."
+#~ msgstr "Πρόσθεση συνδρομών από αρχείο τύπου OPML."
+
+#~ msgid "Add manually subscriptions from URL."
+#~ msgstr "Χειροκίνητη πρόσθεση ροών από διεύθυνση URL."
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Είσαστε σίγουροι πως θέλετε τη διαγραφή;"
+
+#~ msgid "Are you sure you want to mark as read?"
+#~ msgstr "Θέλετε σίγουρα να σημειώσετε την είδηση ως διαβασμένη;"
+
+#~ msgid "Behavior"
+#~ msgstr "Συμπεριφορά"
+
+#~ msgid "Cancel"
+#~ msgstr "Ακύρωση"
+
+#~ msgid "Content:"
+#~ msgstr "Περιεχόμενο:"
+
+#~ msgid "Create"
+#~ msgstr "Δημιουργία"
+
+#~ msgid "Delete"
+#~ msgstr "Διαγραφή"
+
+#~ msgid "Dismiss"
+#~ msgstr "Ματαίωση"
+
+#~ msgid "Display"
+#~ msgstr "Απεικόνιση"
+
+#~ msgid "Download and view feeds"
+#~ msgstr "Λήψη και προβολή ροών ειδήσεων/ιστολογίων"
+
+#~ msgid "Download now all favicons:"
+#~ msgstr "Άμεση λήψη όλων των favicons:"
+
+#~ msgid "Downloading favicons"
+#~ msgstr "Λήψη favicons"
+
+#~ msgid "Enable Java:"
+#~ msgstr "Ενεργοποίηση Java:"
+
+#~ msgid "Enable JavaScripts:"
+#~ msgstr "Ενεργοποίηση JavaScripts:"
+
+#~ msgid "Enable automatic updates:"
+#~ msgstr "Ενεργοποίηση αυτομάτων ενημερώσεων:"
+
+#~ msgid "Enable images:"
+#~ msgstr "Ενεργοποίηση εικόνων:"
+
+#~ msgid "Enable plugins:"
+#~ msgstr "Ενεργοποίηση προσθέτων:"
+
+#~ msgid "Enable updates on start:"
+#~ msgstr "Ενεργοποίηση ενημερώσεων κατά την έναρξη:"
+
+#~ msgid "Export subscriptions"
+#~ msgstr "Εξαγωγή συνδρομών"
+
+#~ msgid "Favicons:"
+#~ msgstr "Favicons:"
+
+#~ msgid "Feedler News Reader"
+#~ msgstr "Αναγνώστης ειδήσεων Feedler"
+
+#~ msgid "Feedler can't seem to find your feeds."
+#~ msgstr "Η εφαρμογή Feedlerφαίνεται να μη μπορεί να βρει τις ροές σας."
+
+#~ msgid "Folder"
+#~ msgstr "Φάκελος"
+
+#~ msgid "Get Some Feeds"
+#~ msgstr "Λήψη ροών"
+
+#~ msgid "Go to the next readed item"
+#~ msgstr "Μετάβαση στο επόμενο διαβασμένο αντικείμενο"
+
+#~ msgid "Go to the previous readed item"
+#~ msgstr "Μετάβαση στο προηγουμένως διαβασμένο αντικείμενο"
+
+#~ msgid "Hide window on start to the messaging menu:"
+#~ msgstr "Απόκρυψη παραθύρου κατά την έναρξη στο μενού μηνυμάτων:"
+
+#~ msgid "Hiding window instead of closing:"
+#~ msgstr "Απόκρυψη παραθύρου αντί του κλεισίματός του:"
+
+#~ msgid "Import"
+#~ msgstr "Εισαγωγή"
+
+#~ msgid "Load favicon"
+#~ msgstr "Φόρτωση favicon"
+
+#~ msgid "Mark as read"
+#~ msgstr "Σημείωση είδησης ως διαβασμένης"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Σημείωση είδησης ως μη διαβασμένης"
+
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+#~ msgid "New"
+#~ msgstr "Νέο"
+
+#~ msgid "Open in browser"
+#~ msgstr "Άνοιγμα στον περιηγητή"
+
+#~ msgid "Properties"
+#~ msgstr "Ιδιότητες"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Απομάκρυνση επιβληθείσας συνδρομής"
+
+#~ msgid "Save"
+#~ msgstr "Αποθήκευση"
+
+#~ msgid "Share channels or items"
+#~ msgstr "Διαμοιρασμός καναλιών ή αντικειμένων"
+
+#~ msgid "Shrink image to fit:"
+#~ msgstr "Συρρίκνωση εικόνας ώστε να χωρά:"
+
+#~ msgid "Subscription"
+#~ msgstr "Συνδρομή"
+
+#~ msgid "Time interval between updates:"
+#~ msgstr "Χρονικό διάστημα μεταξύ ενημερώσεων:"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "URI Address"
+#~ msgstr "Διεύθυνση URI"
+
+#~ msgid "Undo"
+#~ msgstr "Αναίρεση ενέργειας"
+
+#~ msgid "Unread"
+#~ msgstr "Μη αναγνωσμένα"
+
+#~ msgid "Update"
+#~ msgstr "Ενημέρωση"
+
+#~ msgid "Updates"
+#~ msgstr "Ενημερώσεις"
+
+#~ msgid "Updating %s"
+#~ msgstr "Ενημέρωση %s"
+
+#~ msgid "Window:"
+#~ msgstr "Παράθυρο:"

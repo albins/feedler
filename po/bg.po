@@ -7,304 +7,237 @@ msgid ""
 msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 08:01+0200\n"
+"POT-Creation-Date: 2015-01-16 09:40+0100\n"
 "PO-Revision-Date: 2014-04-26 05:14+0000\n"
 "Last-Translator: ITPROJECTS <Unknown>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-04-27 06:08+0000\n"
 "X-Generator: Launchpad (build 16985)\n"
-"Language: bg\n"
 
-#: ../src/desktop-launcher.vala:13
-msgid "Download and view feeds"
-msgstr "Изтегли и разгледай излъчванията"
+msgid "Add new folder"
+msgstr ""
 
-#: ../src/desktop-launcher.vala:14
-msgid "Feedler News Reader"
-msgstr "Фийдлер, Новинарски Четец"
+#, fuzzy
+msgid "Add new subscription"
+msgstr "Добавяне на нов URL за абонамент"
 
-#: ../src/indicator.vala:24 ../src/ui/menu.vala:11
-msgid "Update"
-msgstr "Обнови"
+msgid "Add new.."
+msgstr ""
 
-#: ../src/indicator.vala:28
-msgid "Unread"
-msgstr "Непрочетено"
+msgid "Fullscreen"
+msgstr "Цял екран"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feeds"
-msgstr "нови емисии"
+msgid "Go to the channel with unread items"
+msgstr "Отиди на канал с непрочетени неща"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feed"
-msgstr "нова емисия"
+#, fuzzy
+msgid "Import subscription from file"
+msgstr "Внеси абонаменти от ОПМЛ"
 
-#: ../src/window.vala:330
 #, c-format
 msgid "Imported %i channels in %i folders."
 msgstr "Вмъкнати са %i канала в %i папки."
 
-#: ../src/window.vala:483 ../src/window.vala:509
-msgid "Updating subscriptions"
-msgstr "Обновяване на абонаменти"
-
-#: ../src/window.vala:503
-#, c-format
-msgid "Updating %s"
-msgstr "Обновяване на „%s“"
-
-#: ../src/window.vala:526 ../src/window.vala:541
-msgid "Downloading favicons"
-msgstr "Сваляне на любимите иконки"
-
-#: ../src/window.vala:579
 msgid "Importing subscriptions"
 msgstr "Вмъкване на абонаменти"
 
-#: ../src/window.vala:633 ../src/window.vala:655
-msgid "Are you sure you want to mark as read?"
-msgstr "Сигурни ли сте, че искате да отбележете като прочетено?"
-
-#: ../src/window.vala:674
-msgid "Are you sure you want to delete?"
-msgstr "Сигурни ли сте, че искате да изтриете?"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Get Some Feeds"
-msgstr "Сдобийте се с няколко емисии"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Feedler can't seem to find your feeds."
-msgstr "Изглежда, че Фийдлер не може да намери вашите емисии."
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Create"
-msgstr "Създай"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Add manually subscriptions from URL."
-msgstr "Добави ръчно абонаменти от УРЛ"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Import"
-msgstr "Внеси"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Add a subscriptions from OPML file."
-msgstr "Добавяне на абонаменти от OPML файл."
-
-#: ../src/ui/contractor.vala:23
-msgid "Share channels or items"
-msgstr "Сподели канали или единични емисии"
-
-#: ../src/ui/contractor.vala:38
-msgid "Export subscriptions"
-msgstr "Износ на абонаменти"
-
-#: ../src/ui/folder.vala:24 ../src/ui/folder.vala:40
-#: ../src/ui/subscription.vala:29 ../src/ui/subscription.vala:52
-#, c-format
-msgid "Name"
-msgstr "Име"
-
-#: ../src/ui/folder.vala:26 ../src/ui/subscription.vala:32
-msgid "Save"
-msgstr "Запазване"
-
-#: ../src/ui/folder.vala:30 ../src/ui/subscription.vala:36
-msgid "Cancel"
-msgstr "Отказ"
-
-#: ../src/ui/infobar.vala:21
-msgid "Dismiss"
-msgstr "Отхвърли"
-
-#: ../src/ui/infobar.vala:24
-msgid "Undo"
-msgstr "Отмени"
-
-#: ../src/ui/menu.vala:12 ../src/ui/menu.vala:39
-msgid "Mark as read"
-msgstr "Маркиране като прочетено"
-
-#: ../src/ui/menu.vala:13
-msgid "Delete"
-msgstr "Изтриване"
-
-#: ../src/ui/menu.vala:14
-msgid "Properties"
-msgstr "Настройки"
-
-#: ../src/ui/menu.vala:15
-msgid "New"
-msgstr "Нов"
-
-#: ../src/ui/menu.vala:16
-msgid "Subscription"
-msgstr "Абонамент"
-
-#: ../src/ui/menu.vala:17 ../src/ui/subscription.vala:49
-#, c-format
-msgid "Folder"
-msgstr "Папка"
-
-#: ../src/ui/menu.vala:37
-msgid "Display"
-msgstr "Прегледай"
-
-#: ../src/ui/menu.vala:38
-msgid "Open in browser"
-msgstr "Отваряне в четец"
-
-#: ../src/ui/menu.vala:40
-msgid "Mark as unread"
-msgstr "Бележи като непрочетено"
-
-#: ../src/ui/preferences.vala:60
-msgid "Content:"
-msgstr "Съдържание:"
-
-#: ../src/ui/preferences.vala:61
-msgid "Enable images:"
-msgstr "Разреши снимки:"
-
-#: ../src/ui/preferences.vala:62
-msgid "Shrink image to fit:"
-msgstr "Смали снимките за да паснат:"
-
-#: ../src/ui/preferences.vala:63
-msgid "Enable plugins:"
-msgstr "Разреши добавки:"
-
-#: ../src/ui/preferences.vala:64
-msgid "Enable JavaScripts:"
-msgstr "Разреши ДжаваСкрипт:"
-
-#: ../src/ui/preferences.vala:65
-msgid "Enable Java:"
-msgstr "Разреши Джава:"
-
-#: ../src/ui/preferences.vala:66
-msgid "Window:"
-msgstr "Прозорец:"
-
-#: ../src/ui/preferences.vala:67
-msgid "Hiding window instead of closing:"
-msgstr "Скрий прозореца вместо затваряне:"
-
-#: ../src/ui/preferences.vala:68
-msgid "Hide window on start to the messaging menu:"
-msgstr "Скрий прозореца, при пускане, в менюто съобщения:"
-
-#: ../src/ui/preferences.vala:86
-msgid "Subscriptions:"
-msgstr "Абонаменти:"
-
-#: ../src/ui/preferences.vala:87
-msgid "Enable automatic updates:"
-msgstr "Разреши самостойни обновления:"
-
-#: ../src/ui/preferences.vala:88
-msgid "Enable updates on start:"
-msgstr "Разреши обновление при запуск:"
-
-#: ../src/ui/preferences.vala:89
-msgid "Time interval between updates:"
-msgstr "Времево отстояние между обновления:"
-
-#: ../src/ui/preferences.vala:90
-msgid "Favicons:"
-msgstr "Любими Иконки:"
-
-#: ../src/ui/preferences.vala:91
-msgid "Download now all favicons:"
-msgstr "Изтегли сега всички любими иконки:"
-
-#: ../src/ui/preferences.vala:104 ../src/ui/toolbar.vala:64
-msgid "Preferences"
-msgstr "Предпочитания"
-
-#: ../src/ui/preferences.vala:110
-msgid "Behavior"
-msgstr "Поведение"
-
-#: ../src/ui/preferences.vala:111
-msgid "Updates"
-msgstr "Обновления"
-
-#: ../src/ui/statusbar.vala:49
-msgid "Add new subscription URL"
-msgstr "Добавяне на нов URL за абонамент"
-
-#: ../src/ui/statusbar.vala:52
-msgid "Remove selected subscription"
-msgstr "Премахване на избрания абонамент"
-
-#: ../src/ui/statusbar.vala:55
-msgid "Import subscription from OPML"
-msgstr "Внеси абонаменти от ОПМЛ"
-
-#: ../src/ui/statusbar.vala:58
-msgid "Go to the channel with unread items"
-msgstr "Отиди на канал с непрочетени неща"
-
-#: ../src/ui/statusbar.vala:61
 msgid "Mark all items as read"
 msgstr "Отбележи всички неща като прочетени"
 
-#: ../src/ui/statusbar.vala:74
-msgid "unread feeds"
-msgstr "непрочетени емисии"
-
-#: ../src/ui/statusbar.vala:74
-msgid "unread feed"
-msgstr "непрочетена емисия"
-
-#: ../src/ui/subscription.vala:30
-msgid "URI"
-msgstr "URI"
-
-#: ../src/ui/subscription.vala:40
-msgid "Load favicon"
-msgstr "Зареди любимата иконка"
-
-#: ../src/ui/subscription.vala:56
-#, c-format
-msgid "URI Address"
-msgstr "URI Адрес"
-
-#: ../src/ui/toolbar.vala:57
-msgid "Type to Search..."
-msgstr "Пишете за да потърсите..."
-
-#: ../src/ui/toolbar.vala:62
-msgid "Sidebar Visible"
-msgstr "Странична лента видима"
-
-#: ../src/ui/toolbar.vala:63
-msgid "Fullscreen"
-msgstr "Цял екран"
-
-#: ../src/ui/toolbar.vala:97
-msgid "Go to the previous readed item"
-msgstr "Преминаване на предходния прочетен предмет"
-
-#: ../src/ui/toolbar.vala:98
-msgid "Go to the next readed item"
-msgstr "Преминаване на следващия прочетен предмет"
-
-#: ../src/ui/toolbar.vala:99
-msgid "Refresh all subscriptions"
-msgstr "Обновяване на всички абонаменти"
-
-#: ../src/ui/toolbar.vala:100
 msgid "Menu"
 msgstr "Меню"
 
-#: ../src/ui/view-cell.vala:53
-#, c-format
-msgid "%s, by %s"
-msgstr "%s, от %s"
+msgid "Preferences"
+msgstr "Предпочитания"
+
+msgid "Refresh all subscriptions"
+msgstr "Обновяване на всички абонаменти"
+
+#. internal Feedler.ContractorButton sharemenu;
+msgid "Sidebar Visible"
+msgstr "Странична лента видима"
+
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Абонаменти:"
+
+msgid "Type to Search..."
+msgstr "Пишете за да потърсите..."
+
+msgid "Updating subscriptions"
+msgstr "Обновяване на абонаменти"
+
+msgid "new feed"
+msgstr "нова емисия"
+
+msgid "new feeds"
+msgstr "нови емисии"
+
+msgid "unread feed"
+msgstr "непрочетена емисия"
+
+msgid "unread feeds"
+msgstr "непрочетени емисии"
+
+#~ msgid "%s, by %s"
+#~ msgstr "%s, от %s"
+
+#~ msgid "Add a subscriptions from OPML file."
+#~ msgstr "Добавяне на абонаменти от OPML файл."
+
+#~ msgid "Add manually subscriptions from URL."
+#~ msgstr "Добави ръчно абонаменти от УРЛ"
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Сигурни ли сте, че искате да изтриете?"
+
+#~ msgid "Are you sure you want to mark as read?"
+#~ msgstr "Сигурни ли сте, че искате да отбележете като прочетено?"
+
+#~ msgid "Behavior"
+#~ msgstr "Поведение"
+
+#~ msgid "Cancel"
+#~ msgstr "Отказ"
+
+#~ msgid "Content:"
+#~ msgstr "Съдържание:"
+
+#~ msgid "Create"
+#~ msgstr "Създай"
+
+#~ msgid "Delete"
+#~ msgstr "Изтриване"
+
+#~ msgid "Dismiss"
+#~ msgstr "Отхвърли"
+
+#~ msgid "Display"
+#~ msgstr "Прегледай"
+
+#~ msgid "Download and view feeds"
+#~ msgstr "Изтегли и разгледай излъчванията"
+
+#~ msgid "Download now all favicons:"
+#~ msgstr "Изтегли сега всички любими иконки:"
+
+#~ msgid "Downloading favicons"
+#~ msgstr "Сваляне на любимите иконки"
+
+#~ msgid "Enable Java:"
+#~ msgstr "Разреши Джава:"
+
+#~ msgid "Enable JavaScripts:"
+#~ msgstr "Разреши ДжаваСкрипт:"
+
+#~ msgid "Enable automatic updates:"
+#~ msgstr "Разреши самостойни обновления:"
+
+#~ msgid "Enable images:"
+#~ msgstr "Разреши снимки:"
+
+#~ msgid "Enable plugins:"
+#~ msgstr "Разреши добавки:"
+
+#~ msgid "Enable updates on start:"
+#~ msgstr "Разреши обновление при запуск:"
+
+#~ msgid "Export subscriptions"
+#~ msgstr "Износ на абонаменти"
+
+#~ msgid "Favicons:"
+#~ msgstr "Любими Иконки:"
+
+#~ msgid "Feedler News Reader"
+#~ msgstr "Фийдлер, Новинарски Четец"
+
+#~ msgid "Feedler can't seem to find your feeds."
+#~ msgstr "Изглежда, че Фийдлер не може да намери вашите емисии."
+
+#~ msgid "Folder"
+#~ msgstr "Папка"
+
+#~ msgid "Get Some Feeds"
+#~ msgstr "Сдобийте се с няколко емисии"
+
+#~ msgid "Go to the next readed item"
+#~ msgstr "Преминаване на следващия прочетен предмет"
+
+#~ msgid "Go to the previous readed item"
+#~ msgstr "Преминаване на предходния прочетен предмет"
+
+#~ msgid "Hide window on start to the messaging menu:"
+#~ msgstr "Скрий прозореца, при пускане, в менюто съобщения:"
+
+#~ msgid "Hiding window instead of closing:"
+#~ msgstr "Скрий прозореца вместо затваряне:"
+
+#~ msgid "Import"
+#~ msgstr "Внеси"
+
+#~ msgid "Load favicon"
+#~ msgstr "Зареди любимата иконка"
+
+#~ msgid "Mark as read"
+#~ msgstr "Маркиране като прочетено"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Бележи като непрочетено"
+
+#~ msgid "Name"
+#~ msgstr "Име"
+
+#~ msgid "New"
+#~ msgstr "Нов"
+
+#~ msgid "Open in browser"
+#~ msgstr "Отваряне в четец"
+
+#~ msgid "Properties"
+#~ msgstr "Настройки"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Премахване на избрания абонамент"
+
+#~ msgid "Save"
+#~ msgstr "Запазване"
+
+#~ msgid "Share channels or items"
+#~ msgstr "Сподели канали или единични емисии"
+
+#~ msgid "Shrink image to fit:"
+#~ msgstr "Смали снимките за да паснат:"
+
+#~ msgid "Subscription"
+#~ msgstr "Абонамент"
+
+#~ msgid "Time interval between updates:"
+#~ msgstr "Времево отстояние между обновления:"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "URI Address"
+#~ msgstr "URI Адрес"
+
+#~ msgid "Undo"
+#~ msgstr "Отмени"
+
+#~ msgid "Unread"
+#~ msgstr "Непрочетено"
+
+#~ msgid "Update"
+#~ msgstr "Обнови"
+
+#~ msgid "Updates"
+#~ msgstr "Обновления"
+
+#~ msgid "Updating %s"
+#~ msgstr "Обновяване на „%s“"
+
+#~ msgid "Window:"
+#~ msgstr "Прозорец:"

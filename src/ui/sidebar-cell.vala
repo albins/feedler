@@ -104,7 +104,7 @@ public class Feedler.SidebarCell : Gtk.CellRenderer
         /* Icon */
         if (type == Type.ERROR)
         {
-			weak Gdk.Pixbuf pix = new Gtk.Invisible ().render_icon_pixbuf (Gtk.Stock.CANCEL, Gtk.IconSize.MENU);
+			Gdk.Pixbuf pix = new Gtk.Invisible ().render_icon_pixbuf (Gtk.Stock.CANCEL, Gtk.IconSize.MENU);
 			Gdk.cairo_set_source_pixbuf (cr, pix, area.x - 8, height_centered - 1);
 			cr.paint ();
 		}

@@ -7,304 +7,237 @@ msgid ""
 msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 08:01+0200\n"
+"POT-Creation-Date: 2015-01-16 09:40+0100\n"
 "PO-Revision-Date: 2012-07-02 11:44+0000\n"
 "Last-Translator: Anna Erdiawan <Unknown>\n"
 "Language-Team: Indonesian <id@li.org>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-03-15 07:10+0000\n"
 "X-Generator: Launchpad (build 16963)\n"
-"Language: id\n"
 
-#: ../src/desktop-launcher.vala:13
-msgid "Download and view feeds"
-msgstr "Unduh dan tilik umpan"
+msgid "Add new folder"
+msgstr ""
 
-#: ../src/desktop-launcher.vala:14
-msgid "Feedler News Reader"
-msgstr "Pembaca Pengumpan Berita"
+#, fuzzy
+msgid "Add new subscription"
+msgstr "Tambah URL langganan baru"
 
-#: ../src/indicator.vala:24 ../src/ui/menu.vala:11
-msgid "Update"
-msgstr "Perbarui"
+msgid "Add new.."
+msgstr ""
 
-#: ../src/indicator.vala:28
-msgid "Unread"
-msgstr "Belum dibaca"
+msgid "Fullscreen"
+msgstr "Layar Penuh"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feeds"
-msgstr "umpan baru"
+msgid "Go to the channel with unread items"
+msgstr "Pergi ke saluran dengan butir belum dibaca"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feed"
-msgstr "umpan baru"
+#, fuzzy
+msgid "Import subscription from file"
+msgstr "Impor langganan dari OPML"
 
-#: ../src/window.vala:330
 #, c-format
 msgid "Imported %i channels in %i folders."
 msgstr "Telah mengimpor %i kanal di %i folder."
 
-#: ../src/window.vala:483 ../src/window.vala:509
-msgid "Updating subscriptions"
-msgstr "Memperbaharui langganan"
-
-#: ../src/window.vala:503
-#, c-format
-msgid "Updating %s"
-msgstr "Memperbaharui %s"
-
-#: ../src/window.vala:526 ../src/window.vala:541
-msgid "Downloading favicons"
-msgstr "Mengunduh favicon"
-
-#: ../src/window.vala:579
 msgid "Importing subscriptions"
 msgstr "Mengimpor langganan"
 
-#: ../src/window.vala:633 ../src/window.vala:655
-msgid "Are you sure you want to mark as read?"
-msgstr "Anda yakin akan menandai sudah dibaca?"
-
-#: ../src/window.vala:674
-msgid "Are you sure you want to delete?"
-msgstr "Anda yakin akan menghapus?"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Get Some Feeds"
-msgstr "Dapatkan Beberapa Umpan"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Feedler can't seem to find your feeds."
-msgstr "Feedler nampaknya tidak dapat menemukan umpan Anda."
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Create"
-msgstr "Buat"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Add manually subscriptions from URL."
-msgstr "Tambah manual langganan dari URL"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Import"
-msgstr "Impor"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Add a subscriptions from OPML file."
-msgstr "Tambah langganan dari bekas OPML."
-
-#: ../src/ui/contractor.vala:23
-msgid "Share channels or items"
-msgstr "Bagikan saluran atau butir"
-
-#: ../src/ui/contractor.vala:38
-msgid "Export subscriptions"
-msgstr "Ekspor langganan"
-
-#: ../src/ui/folder.vala:24 ../src/ui/folder.vala:40
-#: ../src/ui/subscription.vala:29 ../src/ui/subscription.vala:52
-#, c-format
-msgid "Name"
-msgstr "Nama"
-
-#: ../src/ui/folder.vala:26 ../src/ui/subscription.vala:32
-msgid "Save"
-msgstr "Simpan"
-
-#: ../src/ui/folder.vala:30 ../src/ui/subscription.vala:36
-msgid "Cancel"
-msgstr "Batal"
-
-#: ../src/ui/infobar.vala:21
-msgid "Dismiss"
-msgstr "Singkirkan"
-
-#: ../src/ui/infobar.vala:24
-msgid "Undo"
-msgstr "Tak Jadi"
-
-#: ../src/ui/menu.vala:12 ../src/ui/menu.vala:39
-msgid "Mark as read"
-msgstr "Tandai sudah dibaca"
-
-#: ../src/ui/menu.vala:13
-msgid "Delete"
-msgstr "Hapus"
-
-#: ../src/ui/menu.vala:14
-msgid "Properties"
-msgstr "Properti"
-
-#: ../src/ui/menu.vala:15
-msgid "New"
-msgstr "Baru"
-
-#: ../src/ui/menu.vala:16
-msgid "Subscription"
-msgstr "Langganan"
-
-#: ../src/ui/menu.vala:17 ../src/ui/subscription.vala:49
-#, c-format
-msgid "Folder"
-msgstr "Folder"
-
-#: ../src/ui/menu.vala:37
-msgid "Display"
-msgstr "Tampilkan"
-
-#: ../src/ui/menu.vala:38
-msgid "Open in browser"
-msgstr "Buka pada peramban"
-
-#: ../src/ui/menu.vala:40
-msgid "Mark as unread"
-msgstr "Beri tanda belum dibaca"
-
-#: ../src/ui/preferences.vala:60
-msgid "Content:"
-msgstr "Isi:"
-
-#: ../src/ui/preferences.vala:61
-msgid "Enable images:"
-msgstr "Izinkan gambar"
-
-#: ../src/ui/preferences.vala:62
-msgid "Shrink image to fit:"
-msgstr "Kecilkan gambar untuk memenuhi"
-
-#: ../src/ui/preferences.vala:63
-msgid "Enable plugins:"
-msgstr "Izinkan plugin"
-
-#: ../src/ui/preferences.vala:64
-msgid "Enable JavaScripts:"
-msgstr "Izinkan JavaScript"
-
-#: ../src/ui/preferences.vala:65
-msgid "Enable Java:"
-msgstr "Izinkan Java"
-
-#: ../src/ui/preferences.vala:66
-msgid "Window:"
-msgstr "Jendela"
-
-#: ../src/ui/preferences.vala:67
-msgid "Hiding window instead of closing:"
-msgstr "Sembunyikan jendela tanpa keluar"
-
-#: ../src/ui/preferences.vala:68
-msgid "Hide window on start to the messaging menu:"
-msgstr "Sembunyikan jendela saat mulai untuk menu pesan"
-
-#: ../src/ui/preferences.vala:86
-msgid "Subscriptions:"
-msgstr "Langganan"
-
-#: ../src/ui/preferences.vala:87
-msgid "Enable automatic updates:"
-msgstr "Izinkan mutakhir otomatis"
-
-#: ../src/ui/preferences.vala:88
-msgid "Enable updates on start:"
-msgstr "Izinkan mutakhir saat mulai"
-
-#: ../src/ui/preferences.vala:89
-msgid "Time interval between updates:"
-msgstr "Interval waktu antara mutakhir"
-
-#: ../src/ui/preferences.vala:90
-msgid "Favicons:"
-msgstr "Faficon"
-
-#: ../src/ui/preferences.vala:91
-msgid "Download now all favicons:"
-msgstr "Unduh semua favicon"
-
-#: ../src/ui/preferences.vala:104 ../src/ui/toolbar.vala:64
-msgid "Preferences"
-msgstr "Pengaturan"
-
-#: ../src/ui/preferences.vala:110
-msgid "Behavior"
-msgstr "Perilaku"
-
-#: ../src/ui/preferences.vala:111
-msgid "Updates"
-msgstr "Pemutakhiran"
-
-#: ../src/ui/statusbar.vala:49
-msgid "Add new subscription URL"
-msgstr "Tambah URL langganan baru"
-
-#: ../src/ui/statusbar.vala:52
-msgid "Remove selected subscription"
-msgstr "Hapus langganan yang telah dipilih"
-
-#: ../src/ui/statusbar.vala:55
-msgid "Import subscription from OPML"
-msgstr "Impor langganan dari OPML"
-
-#: ../src/ui/statusbar.vala:58
-msgid "Go to the channel with unread items"
-msgstr "Pergi ke saluran dengan butir belum dibaca"
-
-#: ../src/ui/statusbar.vala:61
 msgid "Mark all items as read"
 msgstr "Tandai semua butir sebagai belum dibaca"
 
-#: ../src/ui/statusbar.vala:74
-msgid "unread feeds"
-msgstr "Umpan yang belum dibaca"
-
-#: ../src/ui/statusbar.vala:74
-msgid "unread feed"
-msgstr "Umpan yang belum dibaca"
-
-#: ../src/ui/subscription.vala:30
-msgid "URI"
-msgstr "URI"
-
-#: ../src/ui/subscription.vala:40
-msgid "Load favicon"
-msgstr "Muat favicon"
-
-#: ../src/ui/subscription.vala:56
-#, c-format
-msgid "URI Address"
-msgstr "Alamat URI"
-
-#: ../src/ui/toolbar.vala:57
-msgid "Type to Search..."
-msgstr "Ketik untuk Mencari..."
-
-#: ../src/ui/toolbar.vala:62
-msgid "Sidebar Visible"
-msgstr "Perlihatkan Daring"
-
-#: ../src/ui/toolbar.vala:63
-msgid "Fullscreen"
-msgstr "Layar Penuh"
-
-#: ../src/ui/toolbar.vala:97
-msgid "Go to the previous readed item"
-msgstr "Ke item yang sudah dibaca sebelumnya"
-
-#: ../src/ui/toolbar.vala:98
-msgid "Go to the next readed item"
-msgstr "Ke item yang sudah dibaca berikutnya"
-
-#: ../src/ui/toolbar.vala:99
-msgid "Refresh all subscriptions"
-msgstr "Segarkan semua langganan"
-
-#: ../src/ui/toolbar.vala:100
 msgid "Menu"
 msgstr "Menu"
 
-#: ../src/ui/view-cell.vala:53
-#, c-format
-msgid "%s, by %s"
-msgstr "%s, oleh %s"
+msgid "Preferences"
+msgstr "Pengaturan"
+
+msgid "Refresh all subscriptions"
+msgstr "Segarkan semua langganan"
+
+#. internal Feedler.ContractorButton sharemenu;
+msgid "Sidebar Visible"
+msgstr "Perlihatkan Daring"
+
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Langganan"
+
+msgid "Type to Search..."
+msgstr "Ketik untuk Mencari..."
+
+msgid "Updating subscriptions"
+msgstr "Memperbaharui langganan"
+
+msgid "new feed"
+msgstr "umpan baru"
+
+msgid "new feeds"
+msgstr "umpan baru"
+
+msgid "unread feed"
+msgstr "Umpan yang belum dibaca"
+
+msgid "unread feeds"
+msgstr "Umpan yang belum dibaca"
+
+#~ msgid "%s, by %s"
+#~ msgstr "%s, oleh %s"
+
+#~ msgid "Add a subscriptions from OPML file."
+#~ msgstr "Tambah langganan dari bekas OPML."
+
+#~ msgid "Add manually subscriptions from URL."
+#~ msgstr "Tambah manual langganan dari URL"
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Anda yakin akan menghapus?"
+
+#~ msgid "Are you sure you want to mark as read?"
+#~ msgstr "Anda yakin akan menandai sudah dibaca?"
+
+#~ msgid "Behavior"
+#~ msgstr "Perilaku"
+
+#~ msgid "Cancel"
+#~ msgstr "Batal"
+
+#~ msgid "Content:"
+#~ msgstr "Isi:"
+
+#~ msgid "Create"
+#~ msgstr "Buat"
+
+#~ msgid "Delete"
+#~ msgstr "Hapus"
+
+#~ msgid "Dismiss"
+#~ msgstr "Singkirkan"
+
+#~ msgid "Display"
+#~ msgstr "Tampilkan"
+
+#~ msgid "Download and view feeds"
+#~ msgstr "Unduh dan tilik umpan"
+
+#~ msgid "Download now all favicons:"
+#~ msgstr "Unduh semua favicon"
+
+#~ msgid "Downloading favicons"
+#~ msgstr "Mengunduh favicon"
+
+#~ msgid "Enable Java:"
+#~ msgstr "Izinkan Java"
+
+#~ msgid "Enable JavaScripts:"
+#~ msgstr "Izinkan JavaScript"
+
+#~ msgid "Enable automatic updates:"
+#~ msgstr "Izinkan mutakhir otomatis"
+
+#~ msgid "Enable images:"
+#~ msgstr "Izinkan gambar"
+
+#~ msgid "Enable plugins:"
+#~ msgstr "Izinkan plugin"
+
+#~ msgid "Enable updates on start:"
+#~ msgstr "Izinkan mutakhir saat mulai"
+
+#~ msgid "Export subscriptions"
+#~ msgstr "Ekspor langganan"
+
+#~ msgid "Favicons:"
+#~ msgstr "Faficon"
+
+#~ msgid "Feedler News Reader"
+#~ msgstr "Pembaca Pengumpan Berita"
+
+#~ msgid "Feedler can't seem to find your feeds."
+#~ msgstr "Feedler nampaknya tidak dapat menemukan umpan Anda."
+
+#~ msgid "Folder"
+#~ msgstr "Folder"
+
+#~ msgid "Get Some Feeds"
+#~ msgstr "Dapatkan Beberapa Umpan"
+
+#~ msgid "Go to the next readed item"
+#~ msgstr "Ke item yang sudah dibaca berikutnya"
+
+#~ msgid "Go to the previous readed item"
+#~ msgstr "Ke item yang sudah dibaca sebelumnya"
+
+#~ msgid "Hide window on start to the messaging menu:"
+#~ msgstr "Sembunyikan jendela saat mulai untuk menu pesan"
+
+#~ msgid "Hiding window instead of closing:"
+#~ msgstr "Sembunyikan jendela tanpa keluar"
+
+#~ msgid "Import"
+#~ msgstr "Impor"
+
+#~ msgid "Load favicon"
+#~ msgstr "Muat favicon"
+
+#~ msgid "Mark as read"
+#~ msgstr "Tandai sudah dibaca"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Beri tanda belum dibaca"
+
+#~ msgid "Name"
+#~ msgstr "Nama"
+
+#~ msgid "New"
+#~ msgstr "Baru"
+
+#~ msgid "Open in browser"
+#~ msgstr "Buka pada peramban"
+
+#~ msgid "Properties"
+#~ msgstr "Properti"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Hapus langganan yang telah dipilih"
+
+#~ msgid "Save"
+#~ msgstr "Simpan"
+
+#~ msgid "Share channels or items"
+#~ msgstr "Bagikan saluran atau butir"
+
+#~ msgid "Shrink image to fit:"
+#~ msgstr "Kecilkan gambar untuk memenuhi"
+
+#~ msgid "Subscription"
+#~ msgstr "Langganan"
+
+#~ msgid "Time interval between updates:"
+#~ msgstr "Interval waktu antara mutakhir"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "URI Address"
+#~ msgstr "Alamat URI"
+
+#~ msgid "Undo"
+#~ msgstr "Tak Jadi"
+
+#~ msgid "Unread"
+#~ msgstr "Belum dibaca"
+
+#~ msgid "Update"
+#~ msgstr "Perbarui"
+
+#~ msgid "Updates"
+#~ msgstr "Pemutakhiran"
+
+#~ msgid "Updating %s"
+#~ msgstr "Memperbaharui %s"
+
+#~ msgid "Window:"
+#~ msgstr "Jendela"

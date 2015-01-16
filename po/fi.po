@@ -7,304 +7,201 @@ msgid ""
 msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 08:01+0200\n"
+"POT-Creation-Date: 2015-01-16 09:40+0100\n"
 "PO-Revision-Date: 2013-08-13 19:29+0000\n"
 "Last-Translator: Jiri Grönroos <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-03-15 07:10+0000\n"
 "X-Generator: Launchpad (build 16963)\n"
-"Language: fi\n"
 
-#: ../src/desktop-launcher.vala:13
-msgid "Download and view feeds"
-msgstr "Lataa ja seuraa syötteitä"
-
-#: ../src/desktop-launcher.vala:14
-msgid "Feedler News Reader"
-msgstr "Feedler-syötelukija"
-
-#: ../src/indicator.vala:24 ../src/ui/menu.vala:11
-msgid "Update"
-msgstr "Päivitä"
-
-#: ../src/indicator.vala:28
-msgid "Unread"
+msgid "Add new folder"
 msgstr ""
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feeds"
-msgstr "uutta syötettä"
+#, fuzzy
+msgid "Add new subscription"
+msgstr "Päivitetään tilauksia"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feed"
-msgstr "uusi syöte"
+msgid "Add new.."
+msgstr ""
 
-#: ../src/window.vala:330
+msgid "Fullscreen"
+msgstr "Koko näyttö"
+
+msgid "Go to the channel with unread items"
+msgstr ""
+
+#, fuzzy
+msgid "Import subscription from file"
+msgstr "Tuo tilaus OPML:stä"
+
 #, c-format
 msgid "Imported %i channels in %i folders."
 msgstr ""
 
-#: ../src/window.vala:483 ../src/window.vala:509
-msgid "Updating subscriptions"
-msgstr "Päivitetään tilauksia"
-
-#: ../src/window.vala:503
-#, c-format
-msgid "Updating %s"
-msgstr "Päivitetään %s"
-
-#: ../src/window.vala:526 ../src/window.vala:541
-msgid "Downloading favicons"
-msgstr "Ladataan favicon-kuvakkeita"
-
-#: ../src/window.vala:579
 msgid "Importing subscriptions"
 msgstr "Tuodaan tilauksia"
 
-#: ../src/window.vala:633 ../src/window.vala:655
-msgid "Are you sure you want to mark as read?"
-msgstr ""
-
-#: ../src/window.vala:674
-msgid "Are you sure you want to delete?"
-msgstr ""
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Get Some Feeds"
-msgstr "Hanki syötteitä"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Feedler can't seem to find your feeds."
-msgstr "Feedler ei löytänyt syötteitä."
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Create"
-msgstr "Luo"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Add manually subscriptions from URL."
-msgstr "Lisää tilaukset käsin verkko-osoitteesta."
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Import"
-msgstr "Tuo"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Add a subscriptions from OPML file."
-msgstr "Lisää tilaukset OPML-tiedostosta."
-
-#: ../src/ui/contractor.vala:23
-msgid "Share channels or items"
-msgstr ""
-
-#: ../src/ui/contractor.vala:38
-msgid "Export subscriptions"
-msgstr "Vie tilaukset"
-
-#: ../src/ui/folder.vala:24 ../src/ui/folder.vala:40
-#: ../src/ui/subscription.vala:29 ../src/ui/subscription.vala:52
-#, c-format
-msgid "Name"
-msgstr "Nimi"
-
-#: ../src/ui/folder.vala:26 ../src/ui/subscription.vala:32
-msgid "Save"
-msgstr "Tallenna"
-
-#: ../src/ui/folder.vala:30 ../src/ui/subscription.vala:36
-msgid "Cancel"
-msgstr "Peru"
-
-#: ../src/ui/infobar.vala:21
-msgid "Dismiss"
-msgstr ""
-
-#: ../src/ui/infobar.vala:24
-msgid "Undo"
-msgstr "Kumoa"
-
-#: ../src/ui/menu.vala:12 ../src/ui/menu.vala:39
-msgid "Mark as read"
-msgstr "Merkitse luetuksi"
-
-#: ../src/ui/menu.vala:13
-msgid "Delete"
-msgstr "Poista"
-
-#: ../src/ui/menu.vala:14
-msgid "Properties"
-msgstr "Ominaisuudet"
-
-#: ../src/ui/menu.vala:15
-msgid "New"
-msgstr "Uusi"
-
-#: ../src/ui/menu.vala:16
-msgid "Subscription"
-msgstr "Tilaus"
-
-#: ../src/ui/menu.vala:17 ../src/ui/subscription.vala:49
-#, c-format
-msgid "Folder"
-msgstr "Kansio"
-
-#: ../src/ui/menu.vala:37
-msgid "Display"
-msgstr ""
-
-#: ../src/ui/menu.vala:38
-msgid "Open in browser"
-msgstr "Avaa selaimessa"
-
-#: ../src/ui/menu.vala:40
-msgid "Mark as unread"
-msgstr "Merkitse lukemattomaksi"
-
-#: ../src/ui/preferences.vala:60
-msgid "Content:"
-msgstr "Sisältö:"
-
-#: ../src/ui/preferences.vala:61
-msgid "Enable images:"
-msgstr "Salli kuvat:"
-
-#: ../src/ui/preferences.vala:62
-msgid "Shrink image to fit:"
-msgstr "Sovita kuvat:"
-
-#: ../src/ui/preferences.vala:63
-msgid "Enable plugins:"
-msgstr "Salli liitännäiset:"
-
-#: ../src/ui/preferences.vala:64
-msgid "Enable JavaScripts:"
-msgstr "Salli JavaScript:"
-
-#: ../src/ui/preferences.vala:65
-msgid "Enable Java:"
-msgstr "Salli Java:"
-
-#: ../src/ui/preferences.vala:66
-msgid "Window:"
-msgstr "Ikkuna:"
-
-#: ../src/ui/preferences.vala:67
-msgid "Hiding window instead of closing:"
-msgstr "Piilota ikkuna sulkemisen sijaan:"
-
-#: ../src/ui/preferences.vala:68
-msgid "Hide window on start to the messaging menu:"
-msgstr "Piilota ikkuna käynnistyessä viestivalikkoon:"
-
-#: ../src/ui/preferences.vala:86
-msgid "Subscriptions:"
-msgstr "Tilaukset:"
-
-#: ../src/ui/preferences.vala:87
-msgid "Enable automatic updates:"
-msgstr "Käytä automaattisia päivityksiä:"
-
-#: ../src/ui/preferences.vala:88
-msgid "Enable updates on start:"
-msgstr ""
-
-#: ../src/ui/preferences.vala:89
-msgid "Time interval between updates:"
-msgstr "Päivitysten aikaväli:"
-
-#: ../src/ui/preferences.vala:90
-msgid "Favicons:"
-msgstr "Favicon-kuvakkeet:"
-
-#: ../src/ui/preferences.vala:91
-msgid "Download now all favicons:"
-msgstr "Lataa kaikki favicon-kuvakkeet nyt:"
-
-#: ../src/ui/preferences.vala:104 ../src/ui/toolbar.vala:64
-msgid "Preferences"
-msgstr "Asetukset"
-
-#: ../src/ui/preferences.vala:110
-msgid "Behavior"
-msgstr "Toiminta"
-
-#: ../src/ui/preferences.vala:111
-msgid "Updates"
-msgstr "Päivitykset"
-
-#: ../src/ui/statusbar.vala:49
-msgid "Add new subscription URL"
-msgstr ""
-
-#: ../src/ui/statusbar.vala:52
-msgid "Remove selected subscription"
-msgstr "Poista valittu tilaus"
-
-#: ../src/ui/statusbar.vala:55
-msgid "Import subscription from OPML"
-msgstr "Tuo tilaus OPML:stä"
-
-#: ../src/ui/statusbar.vala:58
-msgid "Go to the channel with unread items"
-msgstr ""
-
-#: ../src/ui/statusbar.vala:61
 msgid "Mark all items as read"
 msgstr "Merkitse kaikki kohteet luetuiksi"
 
-#: ../src/ui/statusbar.vala:74
-msgid "unread feeds"
-msgstr "lukematonta syötettä"
-
-#: ../src/ui/statusbar.vala:74
-msgid "unread feed"
-msgstr "lukematon syöte"
-
-#: ../src/ui/subscription.vala:30
-msgid "URI"
-msgstr ""
-
-#: ../src/ui/subscription.vala:40
-msgid "Load favicon"
-msgstr "Lataa favicon-kuvake"
-
-#: ../src/ui/subscription.vala:56
-#, c-format
-msgid "URI Address"
-msgstr ""
-
-#: ../src/ui/toolbar.vala:57
-msgid "Type to Search..."
-msgstr "Kirjoita hakeaksesi..."
-
-#: ../src/ui/toolbar.vala:62
-msgid "Sidebar Visible"
-msgstr ""
-
-#: ../src/ui/toolbar.vala:63
-msgid "Fullscreen"
-msgstr "Koko näyttö"
-
-#: ../src/ui/toolbar.vala:97
-msgid "Go to the previous readed item"
-msgstr ""
-
-#: ../src/ui/toolbar.vala:98
-msgid "Go to the next readed item"
-msgstr ""
-
-#: ../src/ui/toolbar.vala:99
-msgid "Refresh all subscriptions"
-msgstr "Päivitä kaikki tilaukset"
-
-#: ../src/ui/toolbar.vala:100
 msgid "Menu"
 msgstr "Valikko"
 
-#: ../src/ui/view-cell.vala:53
-#, c-format
-msgid "%s, by %s"
+msgid "Preferences"
+msgstr "Asetukset"
+
+msgid "Refresh all subscriptions"
+msgstr "Päivitä kaikki tilaukset"
+
+#. internal Feedler.ContractorButton sharemenu;
+msgid "Sidebar Visible"
 msgstr ""
+
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Tilaukset:"
+
+msgid "Type to Search..."
+msgstr "Kirjoita hakeaksesi..."
+
+msgid "Updating subscriptions"
+msgstr "Päivitetään tilauksia"
+
+msgid "new feed"
+msgstr "uusi syöte"
+
+msgid "new feeds"
+msgstr "uutta syötettä"
+
+msgid "unread feed"
+msgstr "lukematon syöte"
+
+msgid "unread feeds"
+msgstr "lukematonta syötettä"
+
+#~ msgid "Add a subscriptions from OPML file."
+#~ msgstr "Lisää tilaukset OPML-tiedostosta."
+
+#~ msgid "Add manually subscriptions from URL."
+#~ msgstr "Lisää tilaukset käsin verkko-osoitteesta."
+
+#~ msgid "Behavior"
+#~ msgstr "Toiminta"
+
+#~ msgid "Cancel"
+#~ msgstr "Peru"
+
+#~ msgid "Content:"
+#~ msgstr "Sisältö:"
+
+#~ msgid "Create"
+#~ msgstr "Luo"
+
+#~ msgid "Delete"
+#~ msgstr "Poista"
+
+#~ msgid "Download and view feeds"
+#~ msgstr "Lataa ja seuraa syötteitä"
+
+#~ msgid "Download now all favicons:"
+#~ msgstr "Lataa kaikki favicon-kuvakkeet nyt:"
+
+#~ msgid "Downloading favicons"
+#~ msgstr "Ladataan favicon-kuvakkeita"
+
+#~ msgid "Enable Java:"
+#~ msgstr "Salli Java:"
+
+#~ msgid "Enable JavaScripts:"
+#~ msgstr "Salli JavaScript:"
+
+#~ msgid "Enable automatic updates:"
+#~ msgstr "Käytä automaattisia päivityksiä:"
+
+#~ msgid "Enable images:"
+#~ msgstr "Salli kuvat:"
+
+#~ msgid "Enable plugins:"
+#~ msgstr "Salli liitännäiset:"
+
+#~ msgid "Export subscriptions"
+#~ msgstr "Vie tilaukset"
+
+#~ msgid "Favicons:"
+#~ msgstr "Favicon-kuvakkeet:"
+
+#~ msgid "Feedler News Reader"
+#~ msgstr "Feedler-syötelukija"
+
+#~ msgid "Feedler can't seem to find your feeds."
+#~ msgstr "Feedler ei löytänyt syötteitä."
+
+#~ msgid "Folder"
+#~ msgstr "Kansio"
+
+#~ msgid "Get Some Feeds"
+#~ msgstr "Hanki syötteitä"
+
+#~ msgid "Hide window on start to the messaging menu:"
+#~ msgstr "Piilota ikkuna käynnistyessä viestivalikkoon:"
+
+#~ msgid "Hiding window instead of closing:"
+#~ msgstr "Piilota ikkuna sulkemisen sijaan:"
+
+#~ msgid "Import"
+#~ msgstr "Tuo"
+
+#~ msgid "Load favicon"
+#~ msgstr "Lataa favicon-kuvake"
+
+#~ msgid "Mark as read"
+#~ msgstr "Merkitse luetuksi"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Merkitse lukemattomaksi"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "New"
+#~ msgstr "Uusi"
+
+#~ msgid "Open in browser"
+#~ msgstr "Avaa selaimessa"
+
+#~ msgid "Properties"
+#~ msgstr "Ominaisuudet"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Poista valittu tilaus"
+
+#~ msgid "Save"
+#~ msgstr "Tallenna"
+
+#~ msgid "Shrink image to fit:"
+#~ msgstr "Sovita kuvat:"
+
+#~ msgid "Subscription"
+#~ msgstr "Tilaus"
+
+#~ msgid "Time interval between updates:"
+#~ msgstr "Päivitysten aikaväli:"
+
+#~ msgid "Undo"
+#~ msgstr "Kumoa"
+
+#~ msgid "Update"
+#~ msgstr "Päivitä"
+
+#~ msgid "Updates"
+#~ msgstr "Päivitykset"
+
+#~ msgid "Updating %s"
+#~ msgstr "Päivitetään %s"
+
+#~ msgid "Window:"
+#~ msgstr "Ikkuna:"

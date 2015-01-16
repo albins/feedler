@@ -7,304 +7,237 @@ msgid ""
 msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 08:01+0200\n"
+"POT-Creation-Date: 2015-01-16 09:40+0100\n"
 "PO-Revision-Date: 2013-05-07 20:58+0000\n"
 "Last-Translator: Alfredo Hernández <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-03-15 07:10+0000\n"
 "X-Generator: Launchpad (build 16963)\n"
-"Language: ca\n"
 
-#: ../src/desktop-launcher.vala:13
-msgid "Download and view feeds"
-msgstr "Baixeu i visualitzeu canals web"
+msgid "Add new folder"
+msgstr ""
 
-#: ../src/desktop-launcher.vala:14
-msgid "Feedler News Reader"
-msgstr "Lector de notícies Feedler"
+#, fuzzy
+msgid "Add new subscription"
+msgstr "Afegeix una adreça de subscripció nova"
 
-#: ../src/indicator.vala:24 ../src/ui/menu.vala:11
-msgid "Update"
-msgstr "Actualitza"
+msgid "Add new.."
+msgstr ""
 
-#: ../src/indicator.vala:28
-msgid "Unread"
-msgstr "No llegits"
+msgid "Fullscreen"
+msgstr "Pantalla completa"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feeds"
-msgstr "canals web nous"
+msgid "Go to the channel with unread items"
+msgstr "Vés al canal amb elements sense llegir"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feed"
-msgstr "canal web nou"
+#, fuzzy
+msgid "Import subscription from file"
+msgstr "Importa subscripcions des d'un fitxer OPML"
 
-#: ../src/window.vala:330
 #, c-format
 msgid "Imported %i channels in %i folders."
 msgstr "S'han importat %i canals a %i carpetes."
 
-#: ../src/window.vala:483 ../src/window.vala:509
-msgid "Updating subscriptions"
-msgstr "S'estan actualitzant les subscripcions"
-
-#: ../src/window.vala:503
-#, c-format
-msgid "Updating %s"
-msgstr "S'està actualitzant %s"
-
-#: ../src/window.vala:526 ../src/window.vala:541
-msgid "Downloading favicons"
-msgstr "S'estan baixant les icones de web"
-
-#: ../src/window.vala:579
 msgid "Importing subscriptions"
 msgstr "S'estan important les subscripcions"
 
-#: ../src/window.vala:633 ../src/window.vala:655
-msgid "Are you sure you want to mark as read?"
-msgstr "Esteu segur que voleu marcar com a llegit?"
-
-#: ../src/window.vala:674
-msgid "Are you sure you want to delete?"
-msgstr "Esteu segur que voleu suprimir?"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Get Some Feeds"
-msgstr "Obteniu alguns canals web"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Feedler can't seem to find your feeds."
-msgstr "El Feedler no ha pogut trobar els vostres canals web"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Create"
-msgstr "Crea"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Add manually subscriptions from URL."
-msgstr "Afegeix subscripcions manualment des d'un URL."
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Import"
-msgstr "Importa"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Add a subscriptions from OPML file."
-msgstr "Afegeix una subscripció des d'un fitxer OPML."
-
-#: ../src/ui/contractor.vala:23
-msgid "Share channels or items"
-msgstr "Comparteix canals o elements"
-
-#: ../src/ui/contractor.vala:38
-msgid "Export subscriptions"
-msgstr "Exporta les subscripcions"
-
-#: ../src/ui/folder.vala:24 ../src/ui/folder.vala:40
-#: ../src/ui/subscription.vala:29 ../src/ui/subscription.vala:52
-#, c-format
-msgid "Name"
-msgstr "Nom"
-
-#: ../src/ui/folder.vala:26 ../src/ui/subscription.vala:32
-msgid "Save"
-msgstr "Desa"
-
-#: ../src/ui/folder.vala:30 ../src/ui/subscription.vala:36
-msgid "Cancel"
-msgstr "Canceŀla"
-
-#: ../src/ui/infobar.vala:21
-msgid "Dismiss"
-msgstr "Ignora"
-
-#: ../src/ui/infobar.vala:24
-msgid "Undo"
-msgstr "Desfés"
-
-#: ../src/ui/menu.vala:12 ../src/ui/menu.vala:39
-msgid "Mark as read"
-msgstr "Marca'l com a llegit"
-
-#: ../src/ui/menu.vala:13
-msgid "Delete"
-msgstr "Suprimeix"
-
-#: ../src/ui/menu.vala:14
-msgid "Properties"
-msgstr "Propietats"
-
-#: ../src/ui/menu.vala:15
-msgid "New"
-msgstr "Nou"
-
-#: ../src/ui/menu.vala:16
-msgid "Subscription"
-msgstr "Subscripció"
-
-#: ../src/ui/menu.vala:17 ../src/ui/subscription.vala:49
-#, c-format
-msgid "Folder"
-msgstr "Carpeta"
-
-#: ../src/ui/menu.vala:37
-msgid "Display"
-msgstr "Visualització"
-
-#: ../src/ui/menu.vala:38
-msgid "Open in browser"
-msgstr "Obre al navegador"
-
-#: ../src/ui/menu.vala:40
-msgid "Mark as unread"
-msgstr "Marca'l com a no llegit"
-
-#: ../src/ui/preferences.vala:60
-msgid "Content:"
-msgstr "Contingut:"
-
-#: ../src/ui/preferences.vala:61
-msgid "Enable images:"
-msgstr "Activa les imatges:"
-
-#: ../src/ui/preferences.vala:62
-msgid "Shrink image to fit:"
-msgstr "Encongeix les imatges perquè hi càpiguen:"
-
-#: ../src/ui/preferences.vala:63
-msgid "Enable plugins:"
-msgstr "Activa els connectors:"
-
-#: ../src/ui/preferences.vala:64
-msgid "Enable JavaScripts:"
-msgstr "Activa els JavaScripts:"
-
-#: ../src/ui/preferences.vala:65
-msgid "Enable Java:"
-msgstr "Activa el Java:"
-
-#: ../src/ui/preferences.vala:66
-msgid "Window:"
-msgstr "Finestra:"
-
-#: ../src/ui/preferences.vala:67
-msgid "Hiding window instead of closing:"
-msgstr "Amaga la finestra en comptes de tancar-la:"
-
-#: ../src/ui/preferences.vala:68
-msgid "Hide window on start to the messaging menu:"
-msgstr "Amaga la finestra al menú de missatges a l'inici:"
-
-#: ../src/ui/preferences.vala:86
-msgid "Subscriptions:"
-msgstr "Subscripcions:"
-
-#: ../src/ui/preferences.vala:87
-msgid "Enable automatic updates:"
-msgstr "Activa les actualitzacions automàtiques:"
-
-#: ../src/ui/preferences.vala:88
-msgid "Enable updates on start:"
-msgstr "Activa les actualitzacions a l'inici:"
-
-#: ../src/ui/preferences.vala:89
-msgid "Time interval between updates:"
-msgstr "Temps entre les actualitzacions:"
-
-#: ../src/ui/preferences.vala:90
-msgid "Favicons:"
-msgstr "Icones de web:"
-
-#: ../src/ui/preferences.vala:91
-msgid "Download now all favicons:"
-msgstr "Baixa totes les icones de web ara:"
-
-#: ../src/ui/preferences.vala:104 ../src/ui/toolbar.vala:64
-msgid "Preferences"
-msgstr "Preferències"
-
-#: ../src/ui/preferences.vala:110
-msgid "Behavior"
-msgstr "Comportament"
-
-#: ../src/ui/preferences.vala:111
-msgid "Updates"
-msgstr "Actualitzacions"
-
-#: ../src/ui/statusbar.vala:49
-msgid "Add new subscription URL"
-msgstr "Afegeix una adreça de subscripció nova"
-
-#: ../src/ui/statusbar.vala:52
-msgid "Remove selected subscription"
-msgstr "Esborra la subscripció seleccionada"
-
-#: ../src/ui/statusbar.vala:55
-msgid "Import subscription from OPML"
-msgstr "Importa subscripcions des d'un fitxer OPML"
-
-#: ../src/ui/statusbar.vala:58
-msgid "Go to the channel with unread items"
-msgstr "Vés al canal amb elements sense llegir"
-
-#: ../src/ui/statusbar.vala:61
 msgid "Mark all items as read"
 msgstr "Marca tots els elements com a llegits"
 
-#: ../src/ui/statusbar.vala:74
-msgid "unread feeds"
-msgstr "canals web sense llegir"
-
-#: ../src/ui/statusbar.vala:74
-msgid "unread feed"
-msgstr "canal web sense llegir"
-
-#: ../src/ui/subscription.vala:30
-msgid "URI"
-msgstr "URI"
-
-#: ../src/ui/subscription.vala:40
-msgid "Load favicon"
-msgstr "Carrega la icona de web"
-
-#: ../src/ui/subscription.vala:56
-#, c-format
-msgid "URI Address"
-msgstr "Adreça URI"
-
-#: ../src/ui/toolbar.vala:57
-msgid "Type to Search..."
-msgstr "Escriviu per cercar…"
-
-#: ../src/ui/toolbar.vala:62
-msgid "Sidebar Visible"
-msgstr "Barra lateral visible"
-
-#: ../src/ui/toolbar.vala:63
-msgid "Fullscreen"
-msgstr "Pantalla completa"
-
-#: ../src/ui/toolbar.vala:97
-msgid "Go to the previous readed item"
-msgstr "Vés a l'element llegit anterior"
-
-#: ../src/ui/toolbar.vala:98
-msgid "Go to the next readed item"
-msgstr "Vés a l'element llegit següent"
-
-#: ../src/ui/toolbar.vala:99
-msgid "Refresh all subscriptions"
-msgstr "Refresca totes les subscripcions"
-
-#: ../src/ui/toolbar.vala:100
 msgid "Menu"
 msgstr "Menú"
 
-#: ../src/ui/view-cell.vala:53
-#, c-format
-msgid "%s, by %s"
-msgstr "%s, per %s"
+msgid "Preferences"
+msgstr "Preferències"
+
+msgid "Refresh all subscriptions"
+msgstr "Refresca totes les subscripcions"
+
+#. internal Feedler.ContractorButton sharemenu;
+msgid "Sidebar Visible"
+msgstr "Barra lateral visible"
+
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Subscripcions:"
+
+msgid "Type to Search..."
+msgstr "Escriviu per cercar…"
+
+msgid "Updating subscriptions"
+msgstr "S'estan actualitzant les subscripcions"
+
+msgid "new feed"
+msgstr "canal web nou"
+
+msgid "new feeds"
+msgstr "canals web nous"
+
+msgid "unread feed"
+msgstr "canal web sense llegir"
+
+msgid "unread feeds"
+msgstr "canals web sense llegir"
+
+#~ msgid "%s, by %s"
+#~ msgstr "%s, per %s"
+
+#~ msgid "Add a subscriptions from OPML file."
+#~ msgstr "Afegeix una subscripció des d'un fitxer OPML."
+
+#~ msgid "Add manually subscriptions from URL."
+#~ msgstr "Afegeix subscripcions manualment des d'un URL."
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Esteu segur que voleu suprimir?"
+
+#~ msgid "Are you sure you want to mark as read?"
+#~ msgstr "Esteu segur que voleu marcar com a llegit?"
+
+#~ msgid "Behavior"
+#~ msgstr "Comportament"
+
+#~ msgid "Cancel"
+#~ msgstr "Canceŀla"
+
+#~ msgid "Content:"
+#~ msgstr "Contingut:"
+
+#~ msgid "Create"
+#~ msgstr "Crea"
+
+#~ msgid "Delete"
+#~ msgstr "Suprimeix"
+
+#~ msgid "Dismiss"
+#~ msgstr "Ignora"
+
+#~ msgid "Display"
+#~ msgstr "Visualització"
+
+#~ msgid "Download and view feeds"
+#~ msgstr "Baixeu i visualitzeu canals web"
+
+#~ msgid "Download now all favicons:"
+#~ msgstr "Baixa totes les icones de web ara:"
+
+#~ msgid "Downloading favicons"
+#~ msgstr "S'estan baixant les icones de web"
+
+#~ msgid "Enable Java:"
+#~ msgstr "Activa el Java:"
+
+#~ msgid "Enable JavaScripts:"
+#~ msgstr "Activa els JavaScripts:"
+
+#~ msgid "Enable automatic updates:"
+#~ msgstr "Activa les actualitzacions automàtiques:"
+
+#~ msgid "Enable images:"
+#~ msgstr "Activa les imatges:"
+
+#~ msgid "Enable plugins:"
+#~ msgstr "Activa els connectors:"
+
+#~ msgid "Enable updates on start:"
+#~ msgstr "Activa les actualitzacions a l'inici:"
+
+#~ msgid "Export subscriptions"
+#~ msgstr "Exporta les subscripcions"
+
+#~ msgid "Favicons:"
+#~ msgstr "Icones de web:"
+
+#~ msgid "Feedler News Reader"
+#~ msgstr "Lector de notícies Feedler"
+
+#~ msgid "Feedler can't seem to find your feeds."
+#~ msgstr "El Feedler no ha pogut trobar els vostres canals web"
+
+#~ msgid "Folder"
+#~ msgstr "Carpeta"
+
+#~ msgid "Get Some Feeds"
+#~ msgstr "Obteniu alguns canals web"
+
+#~ msgid "Go to the next readed item"
+#~ msgstr "Vés a l'element llegit següent"
+
+#~ msgid "Go to the previous readed item"
+#~ msgstr "Vés a l'element llegit anterior"
+
+#~ msgid "Hide window on start to the messaging menu:"
+#~ msgstr "Amaga la finestra al menú de missatges a l'inici:"
+
+#~ msgid "Hiding window instead of closing:"
+#~ msgstr "Amaga la finestra en comptes de tancar-la:"
+
+#~ msgid "Import"
+#~ msgstr "Importa"
+
+#~ msgid "Load favicon"
+#~ msgstr "Carrega la icona de web"
+
+#~ msgid "Mark as read"
+#~ msgstr "Marca'l com a llegit"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Marca'l com a no llegit"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "New"
+#~ msgstr "Nou"
+
+#~ msgid "Open in browser"
+#~ msgstr "Obre al navegador"
+
+#~ msgid "Properties"
+#~ msgstr "Propietats"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Esborra la subscripció seleccionada"
+
+#~ msgid "Save"
+#~ msgstr "Desa"
+
+#~ msgid "Share channels or items"
+#~ msgstr "Comparteix canals o elements"
+
+#~ msgid "Shrink image to fit:"
+#~ msgstr "Encongeix les imatges perquè hi càpiguen:"
+
+#~ msgid "Subscription"
+#~ msgstr "Subscripció"
+
+#~ msgid "Time interval between updates:"
+#~ msgstr "Temps entre les actualitzacions:"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "URI Address"
+#~ msgstr "Adreça URI"
+
+#~ msgid "Undo"
+#~ msgstr "Desfés"
+
+#~ msgid "Unread"
+#~ msgstr "No llegits"
+
+#~ msgid "Update"
+#~ msgstr "Actualitza"
+
+#~ msgid "Updates"
+#~ msgstr "Actualitzacions"
+
+#~ msgid "Updating %s"
+#~ msgstr "S'està actualitzant %s"
+
+#~ msgid "Window:"
+#~ msgstr "Finestra:"

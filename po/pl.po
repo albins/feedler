@@ -7,304 +7,237 @@ msgid ""
 msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-29 08:01+0200\n"
+"POT-Creation-Date: 2015-01-16 09:40+0100\n"
 "PO-Revision-Date: 2012-07-08 12:59+0000\n"
 "Last-Translator: Daniel Kur <Daniel.M.Kur@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-03-15 07:10+0000\n"
 "X-Generator: Launchpad (build 16963)\n"
-"Language: pl\n"
 
-#: ../src/desktop-launcher.vala:13
-msgid "Download and view feeds"
-msgstr "Pobieraj oraz przeglądaj kanały informacyjne"
+msgid "Add new folder"
+msgstr ""
 
-#: ../src/desktop-launcher.vala:14
-msgid "Feedler News Reader"
-msgstr "Czytnik wiadomości Feedler"
+#, fuzzy
+msgid "Add new subscription"
+msgstr "Dodaj nowy adres subskrypcji"
 
-#: ../src/indicator.vala:24 ../src/ui/menu.vala:11
-msgid "Update"
-msgstr "Aktualizuj"
+msgid "Add new.."
+msgstr ""
 
-#: ../src/indicator.vala:28
-msgid "Unread"
-msgstr "Nieprzeczytanych"
+msgid "Fullscreen"
+msgstr "Pełny ekran"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feeds"
-msgstr "nowych wiadomości"
+msgid "Go to the channel with unread items"
+msgstr "Przejdź do kanału z nieprzeczytanymi elementami"
 
-#: ../src/manager.vala:126 ../src/window.vala:297
-msgid "new feed"
-msgstr "nowa wiadomość"
+#, fuzzy
+msgid "Import subscription from file"
+msgstr "Importuj subskrypcję z pliku OPML"
 
-#: ../src/window.vala:330
 #, c-format
 msgid "Imported %i channels in %i folders."
 msgstr "Zaimportowano %i kanałów w %i folderach"
 
-#: ../src/window.vala:483 ../src/window.vala:509
-msgid "Updating subscriptions"
-msgstr "Aktualizowanie subskrypcji"
-
-#: ../src/window.vala:503
-#, c-format
-msgid "Updating %s"
-msgstr "Aktualizowanie %s"
-
-#: ../src/window.vala:526 ../src/window.vala:541
-msgid "Downloading favicons"
-msgstr "Pobieranie ikon witryn"
-
-#: ../src/window.vala:579
 msgid "Importing subscriptions"
 msgstr "Importowanie subskrypcji"
 
-#: ../src/window.vala:633 ../src/window.vala:655
-msgid "Are you sure you want to mark as read?"
-msgstr "Czy na pewno chcesz oznaczyć jako przeczytane?"
-
-#: ../src/window.vala:674
-msgid "Are you sure you want to delete?"
-msgstr "Czy na pewno chcesz usunąć?"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Get Some Feeds"
-msgstr "Uzyskaj nowe subskrypcje"
-
-#: ../src/ui/cardlayout.vala:23
-msgid "Feedler can't seem to find your feeds."
-msgstr "Nie można odnaleźć subskrypcji"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Create"
-msgstr "Utwórz"
-
-#: ../src/ui/cardlayout.vala:24
-msgid "Add manually subscriptions from URL."
-msgstr "Dodaj ręcznie subskrypcje z adresu URL."
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Import"
-msgstr "Import"
-
-#: ../src/ui/cardlayout.vala:25
-msgid "Add a subscriptions from OPML file."
-msgstr "Dodaj subskrypcje z pliku OPML."
-
-#: ../src/ui/contractor.vala:23
-msgid "Share channels or items"
-msgstr "Udostępniaj kanały lub elementy"
-
-#: ../src/ui/contractor.vala:38
-msgid "Export subscriptions"
-msgstr "Eksport subskrypcji"
-
-#: ../src/ui/folder.vala:24 ../src/ui/folder.vala:40
-#: ../src/ui/subscription.vala:29 ../src/ui/subscription.vala:52
-#, c-format
-msgid "Name"
-msgstr "Nazwa"
-
-#: ../src/ui/folder.vala:26 ../src/ui/subscription.vala:32
-msgid "Save"
-msgstr "Zapisz"
-
-#: ../src/ui/folder.vala:30 ../src/ui/subscription.vala:36
-msgid "Cancel"
-msgstr "Anuluj"
-
-#: ../src/ui/infobar.vala:21
-msgid "Dismiss"
-msgstr "Porzuć"
-
-#: ../src/ui/infobar.vala:24
-msgid "Undo"
-msgstr "Cofnij"
-
-#: ../src/ui/menu.vala:12 ../src/ui/menu.vala:39
-msgid "Mark as read"
-msgstr "Oznacz jako przeczytany"
-
-#: ../src/ui/menu.vala:13
-msgid "Delete"
-msgstr "Usuń"
-
-#: ../src/ui/menu.vala:14
-msgid "Properties"
-msgstr "Właściwości"
-
-#: ../src/ui/menu.vala:15
-msgid "New"
-msgstr "Utwórz"
-
-#: ../src/ui/menu.vala:16
-msgid "Subscription"
-msgstr "Subskrypcja"
-
-#: ../src/ui/menu.vala:17 ../src/ui/subscription.vala:49
-#, c-format
-msgid "Folder"
-msgstr "Katalog"
-
-#: ../src/ui/menu.vala:37
-msgid "Display"
-msgstr "Wyświetl"
-
-#: ../src/ui/menu.vala:38
-msgid "Open in browser"
-msgstr "Otwórz w przeglądarce"
-
-#: ../src/ui/menu.vala:40
-msgid "Mark as unread"
-msgstr "Oznacz jako nieprzeczytane"
-
-#: ../src/ui/preferences.vala:60
-msgid "Content:"
-msgstr "Treść:"
-
-#: ../src/ui/preferences.vala:61
-msgid "Enable images:"
-msgstr "Włącz wczytywanie obrazków:"
-
-#: ../src/ui/preferences.vala:62
-msgid "Shrink image to fit:"
-msgstr "Skaluj obrazy w celu dopasowania:"
-
-#: ../src/ui/preferences.vala:63
-msgid "Enable plugins:"
-msgstr "Włącz obsługę wtyczek:"
-
-#: ../src/ui/preferences.vala:64
-msgid "Enable JavaScripts:"
-msgstr "Włącz obsługę JavaScript:"
-
-#: ../src/ui/preferences.vala:65
-msgid "Enable Java:"
-msgstr "Włącz obsługę Java:"
-
-#: ../src/ui/preferences.vala:66
-msgid "Window:"
-msgstr "Okno:"
-
-#: ../src/ui/preferences.vala:67
-msgid "Hiding window instead of closing:"
-msgstr "Ukrywanie okna zamiast zamykania:"
-
-#: ../src/ui/preferences.vala:68
-msgid "Hide window on start to the messaging menu:"
-msgstr "Ukryj okno na starcie do menu wiadomości:"
-
-#: ../src/ui/preferences.vala:86
-msgid "Subscriptions:"
-msgstr "Subskrypcje:"
-
-#: ../src/ui/preferences.vala:87
-msgid "Enable automatic updates:"
-msgstr "Włącz automatyczne aktualizację:"
-
-#: ../src/ui/preferences.vala:88
-msgid "Enable updates on start:"
-msgstr "Włącz aktualizacje na starcie:"
-
-#: ../src/ui/preferences.vala:89
-msgid "Time interval between updates:"
-msgstr "Odstęp czasu między aktualizacjami:"
-
-#: ../src/ui/preferences.vala:90
-msgid "Favicons:"
-msgstr "Ikony witryn:"
-
-#: ../src/ui/preferences.vala:91
-msgid "Download now all favicons:"
-msgstr "Pobierz teraz wszystkie ikony witryn:"
-
-#: ../src/ui/preferences.vala:104 ../src/ui/toolbar.vala:64
-msgid "Preferences"
-msgstr "Preferencje"
-
-#: ../src/ui/preferences.vala:110
-msgid "Behavior"
-msgstr "Zachowanie"
-
-#: ../src/ui/preferences.vala:111
-msgid "Updates"
-msgstr "Aktualizacje"
-
-#: ../src/ui/statusbar.vala:49
-msgid "Add new subscription URL"
-msgstr "Dodaj nowy adres subskrypcji"
-
-#: ../src/ui/statusbar.vala:52
-msgid "Remove selected subscription"
-msgstr "Usuń zaznaczone subskrypcje"
-
-#: ../src/ui/statusbar.vala:55
-msgid "Import subscription from OPML"
-msgstr "Importuj subskrypcję z pliku OPML"
-
-#: ../src/ui/statusbar.vala:58
-msgid "Go to the channel with unread items"
-msgstr "Przejdź do kanału z nieprzeczytanymi elementami"
-
-#: ../src/ui/statusbar.vala:61
 msgid "Mark all items as read"
 msgstr "Oznacz wszystkie elementy jako przeczytane"
 
-#: ../src/ui/statusbar.vala:74
-msgid "unread feeds"
-msgstr "nieprzeczytanych wiadomości"
-
-#: ../src/ui/statusbar.vala:74
-msgid "unread feed"
-msgstr "nieprzeczytana wiadomość"
-
-#: ../src/ui/subscription.vala:30
-msgid "URI"
-msgstr "Adres URI"
-
-#: ../src/ui/subscription.vala:40
-msgid "Load favicon"
-msgstr "Wczytaj ikony witryn"
-
-#: ../src/ui/subscription.vala:56
-#, c-format
-msgid "URI Address"
-msgstr "Adres URI"
-
-#: ../src/ui/toolbar.vala:57
-msgid "Type to Search..."
-msgstr "Wyszukiwanie..."
-
-#: ../src/ui/toolbar.vala:62
-msgid "Sidebar Visible"
-msgstr "Widoczny panel boczny"
-
-#: ../src/ui/toolbar.vala:63
-msgid "Fullscreen"
-msgstr "Pełny ekran"
-
-#: ../src/ui/toolbar.vala:97
-msgid "Go to the previous readed item"
-msgstr "Przejdź do poprzedniej przeczytanej pozycji"
-
-#: ../src/ui/toolbar.vala:98
-msgid "Go to the next readed item"
-msgstr "Przejdź do następnej przeczytanej pozycji"
-
-#: ../src/ui/toolbar.vala:99
-msgid "Refresh all subscriptions"
-msgstr "Odśwież wszystkie subskrypcje"
-
-#: ../src/ui/toolbar.vala:100
 msgid "Menu"
 msgstr "Menu"
 
-#: ../src/ui/view-cell.vala:53
-#, c-format
-msgid "%s, by %s"
-msgstr "%s, autor: %s"
+msgid "Preferences"
+msgstr "Preferencje"
+
+msgid "Refresh all subscriptions"
+msgstr "Odśwież wszystkie subskrypcje"
+
+#. internal Feedler.ContractorButton sharemenu;
+msgid "Sidebar Visible"
+msgstr "Widoczny panel boczny"
+
+#, fuzzy
+msgid "Subscriptions"
+msgstr "Subskrypcje:"
+
+msgid "Type to Search..."
+msgstr "Wyszukiwanie..."
+
+msgid "Updating subscriptions"
+msgstr "Aktualizowanie subskrypcji"
+
+msgid "new feed"
+msgstr "nowa wiadomość"
+
+msgid "new feeds"
+msgstr "nowych wiadomości"
+
+msgid "unread feed"
+msgstr "nieprzeczytana wiadomość"
+
+msgid "unread feeds"
+msgstr "nieprzeczytanych wiadomości"
+
+#~ msgid "%s, by %s"
+#~ msgstr "%s, autor: %s"
+
+#~ msgid "Add a subscriptions from OPML file."
+#~ msgstr "Dodaj subskrypcje z pliku OPML."
+
+#~ msgid "Add manually subscriptions from URL."
+#~ msgstr "Dodaj ręcznie subskrypcje z adresu URL."
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Czy na pewno chcesz usunąć?"
+
+#~ msgid "Are you sure you want to mark as read?"
+#~ msgstr "Czy na pewno chcesz oznaczyć jako przeczytane?"
+
+#~ msgid "Behavior"
+#~ msgstr "Zachowanie"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Content:"
+#~ msgstr "Treść:"
+
+#~ msgid "Create"
+#~ msgstr "Utwórz"
+
+#~ msgid "Delete"
+#~ msgstr "Usuń"
+
+#~ msgid "Dismiss"
+#~ msgstr "Porzuć"
+
+#~ msgid "Display"
+#~ msgstr "Wyświetl"
+
+#~ msgid "Download and view feeds"
+#~ msgstr "Pobieraj oraz przeglądaj kanały informacyjne"
+
+#~ msgid "Download now all favicons:"
+#~ msgstr "Pobierz teraz wszystkie ikony witryn:"
+
+#~ msgid "Downloading favicons"
+#~ msgstr "Pobieranie ikon witryn"
+
+#~ msgid "Enable Java:"
+#~ msgstr "Włącz obsługę Java:"
+
+#~ msgid "Enable JavaScripts:"
+#~ msgstr "Włącz obsługę JavaScript:"
+
+#~ msgid "Enable automatic updates:"
+#~ msgstr "Włącz automatyczne aktualizację:"
+
+#~ msgid "Enable images:"
+#~ msgstr "Włącz wczytywanie obrazków:"
+
+#~ msgid "Enable plugins:"
+#~ msgstr "Włącz obsługę wtyczek:"
+
+#~ msgid "Enable updates on start:"
+#~ msgstr "Włącz aktualizacje na starcie:"
+
+#~ msgid "Export subscriptions"
+#~ msgstr "Eksport subskrypcji"
+
+#~ msgid "Favicons:"
+#~ msgstr "Ikony witryn:"
+
+#~ msgid "Feedler News Reader"
+#~ msgstr "Czytnik wiadomości Feedler"
+
+#~ msgid "Feedler can't seem to find your feeds."
+#~ msgstr "Nie można odnaleźć subskrypcji"
+
+#~ msgid "Folder"
+#~ msgstr "Katalog"
+
+#~ msgid "Get Some Feeds"
+#~ msgstr "Uzyskaj nowe subskrypcje"
+
+#~ msgid "Go to the next readed item"
+#~ msgstr "Przejdź do następnej przeczytanej pozycji"
+
+#~ msgid "Go to the previous readed item"
+#~ msgstr "Przejdź do poprzedniej przeczytanej pozycji"
+
+#~ msgid "Hide window on start to the messaging menu:"
+#~ msgstr "Ukryj okno na starcie do menu wiadomości:"
+
+#~ msgid "Hiding window instead of closing:"
+#~ msgstr "Ukrywanie okna zamiast zamykania:"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Load favicon"
+#~ msgstr "Wczytaj ikony witryn"
+
+#~ msgid "Mark as read"
+#~ msgstr "Oznacz jako przeczytany"
+
+#~ msgid "Mark as unread"
+#~ msgstr "Oznacz jako nieprzeczytane"
+
+#~ msgid "Name"
+#~ msgstr "Nazwa"
+
+#~ msgid "New"
+#~ msgstr "Utwórz"
+
+#~ msgid "Open in browser"
+#~ msgstr "Otwórz w przeglądarce"
+
+#~ msgid "Properties"
+#~ msgstr "Właściwości"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Usuń zaznaczone subskrypcje"
+
+#~ msgid "Save"
+#~ msgstr "Zapisz"
+
+#~ msgid "Share channels or items"
+#~ msgstr "Udostępniaj kanały lub elementy"
+
+#~ msgid "Shrink image to fit:"
+#~ msgstr "Skaluj obrazy w celu dopasowania:"
+
+#~ msgid "Subscription"
+#~ msgstr "Subskrypcja"
+
+#~ msgid "Time interval between updates:"
+#~ msgstr "Odstęp czasu między aktualizacjami:"
+
+#~ msgid "URI"
+#~ msgstr "Adres URI"
+
+#~ msgid "URI Address"
+#~ msgstr "Adres URI"
+
+#~ msgid "Undo"
+#~ msgstr "Cofnij"
+
+#~ msgid "Unread"
+#~ msgstr "Nieprzeczytanych"
+
+#~ msgid "Update"
+#~ msgstr "Aktualizuj"
+
+#~ msgid "Updates"
+#~ msgstr "Aktualizacje"
+
+#~ msgid "Updating %s"
+#~ msgstr "Aktualizowanie %s"
+
+#~ msgid "Window:"
+#~ msgstr "Okno:"
