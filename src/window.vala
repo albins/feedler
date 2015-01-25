@@ -1,6 +1,6 @@
 /**
  * window.vala
- * 
+ *
  * @author Daniel Kur <Daniel.M.Kur@gmail.com>
  * @see COPYING
  */
@@ -23,27 +23,27 @@ public class Feedler.Window : Gtk.Window
 	{
 		new Feedler.Icons ();
 	}
-	
+
 	construct
 	{
-        
+
 		this.db = new Feedler.Database ();
 		this.manager = new Feedler.Manager (this);
 		this.layout = new Feedler.Layout ();
 		this.delete_event.connect (destroy_app);
-		this.content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);	
+		this.content = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
         this.ui_layout ();
         this.set_default_size (Feedler.STATE.window_width, Feedler.STATE.window_height);
 
 		if (this.db.is_created ())
 			this.ui_feeds ();
 		else
-			this.ui_welcome ();		
-		
+			this.ui_welcome ();
+
 		this.add (content);
 		this.try_connect ();
 	}
-	
+
 	internal void try_connect ()
 	{
 		try
@@ -51,7 +51,7 @@ public class Feedler.Window : Gtk.Window
             client = Bus.get_proxy_sync (BusType.SESSION, "org.example.Feedler",
                                                         "/org/example/feedler");
             /*client.iconed.connect (favicon_cb);
-			client.added.connect (added_cb);           
+			client.added.connect (added_cb);
             client.updated.connect (updated_cb);*/
 			client.imported.connect ((f) =>
 			{
@@ -76,7 +76,7 @@ public class Feedler.Window : Gtk.Window
 			stderr.printf ("%s\n", client.ping ());
 			//TODO nie widzi w DBus, chyba nie am czegos aktualnego..
 			//Serializer.Folder[] data = client.get_data ();
-			
+
 			//this.infobar.info (new Feedler.ConnectedTask ());
         }
         catch (GLib.Error e)
@@ -85,12 +85,12 @@ public class Feedler.Window : Gtk.Window
 			this.infobar.warning (new Feedler.ReconnectTask (this.try_connect));
         }
 	}
-    
+
     private void ui_layout ()
     {
 		this.toolbar = new Feedler.Toolbar ();
 		this.toolbar.mode.selected = 0;
-		this.content.pack_start (toolbar, false, false, 0);	
+		this.content.pack_start (toolbar, false, false, 0);
 		this.toolbar.update.clicked.connect (update_subscription);
         this.toolbar.mode.mode_changed.connect (change_mode);
         this.toolbar.mode.selected = Feedler.STATE.view_mode;
@@ -107,7 +107,7 @@ public class Feedler.Window : Gtk.Window
         this.toolbar.sidebar_visible.toggled.connect (sidebar_update);
         this.toolbar.fullscreen_mode.toggled.connect (fullscreen_mode);
 
-		this.infobar = new Feedler.Infobar ();        
+		this.infobar = new Feedler.Infobar ();
         this.content.pack_start (infobar, false, false, 0);
 
 		this.side = new Feedler.Sidebar ();
@@ -144,14 +144,14 @@ public class Feedler.Window : Gtk.Window
         this.content.pack_end (this.stat, false, true, 0);
 		this.show_all ();
 	}
-	
+
 	private void ui_feeds ()
 	{
 		this.ui_workspace ();
 		this.db.select_data ();
 		this.load_sidebar ();
 	}
-	
+
 	private void ui_welcome ()
 	{
 		this.toolbar.set_enable (false);
@@ -167,7 +167,7 @@ public class Feedler.Window : Gtk.Window
 			}
 		});
 	}
-	
+
 	private void ui_welcome_to_workspace ()
 	{
 		this.toolbar.set_enable (true);
@@ -198,7 +198,7 @@ public class Feedler.Window : Gtk.Window
 	private Feedler.SidebarItem create_channel (Model.Channel c)
 	{
 		string path = "%s/feedler/fav/%i.png".printf (GLib.Environment.get_user_data_dir (), c.id);
-		Feedler.SidebarItem channel = null;				
+		Feedler.SidebarItem channel = null;
 		if (GLib.FileUtils.test (path, GLib.FileTest.EXISTS))
 			channel = new Feedler.SidebarItem (c.title, new GLib.FileIcon (GLib.File.new_for_path (path)), c.unread, true);
 		else
@@ -211,7 +211,7 @@ public class Feedler.Window : Gtk.Window
 		channel.edit.activate.connect (channel_edit);
 		return channel;
 	}
-	
+
 	/* Events */
 	private void change_mode (Gtk.Widget widget)
 	{
@@ -219,7 +219,7 @@ public class Feedler.Window : Gtk.Window
 			this.view = (Feedler.View)layout.get_nth_page (1);
 		else
 			this.view = (Feedler.View)layout.get_nth_page (this.toolbar.mode.selected+1);
-		
+
 		if (this.side.selected != null)
 			this.channel_selected (this.side.selected);
 	}
@@ -232,7 +232,7 @@ public class Feedler.Window : Gtk.Window
         //pref.update.fav.clicked.disconnect (_favicon_all);
         pref.destroy ();
 	}
-	
+
 	private void sidebar_update ()
 	{
 		if (this.toolbar.sidebar_visible.active)
@@ -240,7 +240,7 @@ public class Feedler.Window : Gtk.Window
 		else
 			this.side.hide ();
 	}
-	
+
 	private void fullscreen_mode ()
 	{
 		if (this.toolbar.fullscreen_mode.active)
@@ -280,7 +280,7 @@ public class Feedler.Window : Gtk.Window
 		c.badge = null;
 		this.db.mark_channel (c.name);
 	}
-	
+
 	private void channel_edit ()
 	{
 		var ch = this.side.selected;
@@ -291,7 +291,7 @@ public class Feedler.Window : Gtk.Window
 		foreach (Model.Folder folder in this.db.data)
 		    subs.add_folder (folder.id, folder.name);
 		subs.set_model (c.id, c.title, c.source, c.folder.id);
-        subs.show_all ();		
+        subs.show_all ();
 	}
 
 	internal void channel_mark_update (string title, int unread)
@@ -403,7 +403,7 @@ public class Feedler.Window : Gtk.Window
 			items = this.db.get_items (Model.State.STARRED);
 		else
 			items = this.db.get_channel (channel.name).items;
-		this.load_view (items);	
+		this.load_view (items);
 	}
 
 	private void load_view (GLib.List<Model.Item?> items)
@@ -412,10 +412,10 @@ public class Feedler.Window : Gtk.Window
 		if (items.length () < 1)
 		{
 			this.layout.display (Feedler.Views.ALERT);
-			return;			
+			return;
 		}
 		this.layout.display ((Feedler.Views)this.toolbar.mode.selected+1);
-	
+
 		this.view.clear ();
 		GLib.Time current_time = GLib.Time.local (time_t ());
 		foreach (Model.Item item in items)
@@ -433,7 +433,7 @@ public class Feedler.Window : Gtk.Window
     {
         Feedler.Folder fol = new Feedler.Folder ();
 		fol.set_transient_for (this);
-        //fol.saved.connect (create_folder_cb);
+        fol.saved.connect (create_folder_cb);
         fol.show_all ();
 	}
 
@@ -447,12 +447,19 @@ public class Feedler.Window : Gtk.Window
         subs.show_all ();
 		//this.stat.add_feed.button_press_event.disconnect (_create_subs);
 	}
-	
+
+    /* Callback for the Folder dialogue, used to actually create a folder in DB. */
+	private void create_folder_cb (int id, string name) {
+		stderr.printf("id: %d \n" , id);
+		stderr.printf("name: %s \n", name);
+	}
+
 	private void create_subs_cb (int id, int folder, string title, string url)
     {
 		//this.stat.add_feed.button_press_event.connect (_create_subs);
 		//if (id == -1 || folder == -1)
 		//	return;
+		stderr.printf("Adding new feed id %d, folder: %d, title %s, url: %s\n", id, folder, title, url);
 		try
 		{
 			if (!this.db.is_created ())
@@ -471,19 +478,24 @@ public class Feedler.Window : Gtk.Window
 				this.db.data.append (ff);
 			    //http://rss.feedsportal.com/c/32739/f/530495/index.rss
 			}
-
 			Serializer.Channel sch = Serializer.Channel.no_data ();
 			sch.title = title; sch.source = url;
+
+			// FIXME: This apparently can fail, but has insufficient error handling
 		    unowned Model.Channel ch = this.db.insert_channel (folder, sch);
+			stderr.printf("Passed the wierd channel stuff\n");
 		    if (folder > 0)
 		    {
-				foreach (var child in this.side.root.children)
+				stderr.printf("No folder...\n");
+				foreach (var child in this.side.root.children) {
+					stderr.printf("%s\n", child.name);
 					if (child.name == ch.folder.name)
 					{
 						var expandable_item = child as Granite.Widgets.SourceList.ExpandableItem;
 						expandable_item.add (create_channel (ch));
 						break;
 					}
+				}
 			}
 			//else
 			//    this.side.root.add (create_channel (ch));
@@ -501,7 +513,7 @@ public class Feedler.Window : Gtk.Window
 		var file = new Gtk.FileChooserDialog ("Open File", this, Gtk.FileChooserAction.OPEN,
                                               Gtk.Stock.CANCEL, Gtk.ResponseType.CANCEL,
                                               Gtk.Stock.OPEN, Gtk.ResponseType.ACCEPT);
-		
+
 		Gtk.FileFilter filter_opml = new Gtk.FileFilter ();
 		filter_opml.set_filter_name ("Subscriptions");
 		filter_opml.add_pattern ("*.opml");

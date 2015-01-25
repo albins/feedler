@@ -1,6 +1,6 @@
 /**
  * service.vala
- * 
+ *
  * @author Daniel Kur <Daniel.M.Kur@gmail.com>
  * @see COPYING
  */
@@ -28,7 +28,7 @@ public class Feedler.Service : Object
 		this.backend.service = this;
 		this.run ();
 	}
-	
+
 	public Service ()
 	{
 		this.with_backend (BACKENDS.XML);
@@ -79,7 +79,7 @@ public class Feedler.Service : Object
 		stderr.printf ("Feedler.Service.add (%s)\n", uri);
 		this.backend.add (uri);
 	}
-	
+
 	public void run ()
 	{
 		stderr.printf ("Feedler.Service.run ()\n");

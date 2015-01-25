@@ -1,10 +1,10 @@
 /**
  * database.vala
- * 
+ *
  * @author Daniel Kur <Daniel.M.Kur@gmail.com>
  * @see COPYING
  */
- 
+
 public class Feedler.Database : GLib.Object
 {
 	private SQLHeavy.Database db;
@@ -13,7 +13,7 @@ public class Feedler.Database : GLib.Object
 	private string location;
 	internal GLib.List<Model.Folder> data;
 	internal GLib.List<unowned Model.Item> tmp;
-	
+
 	construct
 	{
 		this.location = GLib.Environment.get_user_data_dir () + "/feedler/feedler.db";
@@ -230,7 +230,7 @@ public class Feedler.Database : GLib.Object
 			stderr.printf ("Cannot update channel %s with id %i.", title, id);
 		}
     }
-	
+
 	public void remove_channel (int id)
 	{
         try
@@ -301,7 +301,7 @@ public class Feedler.Database : GLib.Object
 				fo.id = results.fetch_int (0);
 				fo.name = results.fetch_string (1);
 				fo.channels = new GLib.List<Model.Channel?> ();
-				
+
 				var que = new SQLHeavy.Query (db, "SELECT * FROM channels WHERE folder=:id;");
 				que.set_int (":id", fo.id);
 				for (var res = que.execute (); !res.finished; res.next ())
@@ -313,7 +313,7 @@ public class Feedler.Database : GLib.Object
 					ch.link = res.fetch_string (3);
 					ch.folder = fo;
 		            ch.items = new GLib.List<Model.Item?> ();
-				
+
 					var q = new SQLHeavy.Query (db, "SELECT * FROM items WHERE channel=:id;");
 		            q.set_int (":id", ch.id);
 					for (var r = q.execute (); !r.finished; r.next ())
@@ -330,7 +330,7 @@ public class Feedler.Database : GLib.Object
 						it.channel = ch;
 						if (!it.read)
 							ch.unread++;
-						ch.items.append (it);				
+						ch.items.append (it);
 					}
 					fo.channels.append (ch);
 				}
@@ -368,7 +368,7 @@ public class Feedler.Database : GLib.Object
                	return f;
 		return null;
 	}
-	
+
 	public unowned Model.Folder? get_folder_from_id (int id)
 	{
 		foreach (unowned Model.Folder f in this.data)
@@ -388,10 +388,18 @@ public class Feedler.Database : GLib.Object
 
 	public unowned Model.Channel? get_channel_from_source (string source)
 	{
+		stderr.printf("Trying to get channel from source: %s\n", source);
 		foreach (unowned Model.Folder f in this.data)
+		{
 			foreach (unowned Model.Channel c in f.channels)
+			{
+				stderr.printf("Channel source: %s.\n", c.source);
             	if (source == c.source)
                 	return c;
+			}
+
+		}
+		// Found nothing. :(
 		return null;
 	}
 
@@ -606,7 +614,7 @@ public class Feedler.Database : GLib.Object
 		}
 		return this.get_channel (schannel.title);
 	}
-    
+
     /*public int insert_serialized_folder (Serializer.Folder folder)
 	{
 		try
@@ -672,21 +680,21 @@ public class Feedler.Database : GLib.Object
         /*Xml.Node* opml = doc->new_node (null, "opml", null);
         opml->new_prop ("version", "1.0");
         doc->set_root_element (opml);
-        
+
         Xml.Node* head = new Xml.Node (null, "head");
         Xml.Node* h_title = doc->new_node (null, "title", "Feedler News Reader");
         Xml.Node* h_date = doc->new_node (null, "dateCreated", created_time ());
         head->add_child (h_title);
         head->add_child (h_date);
         opml->add_child (head);
-        
+
         Xml.Node* body = new Xml.Node (null, "body");
         foreach (Model.Folder folder in this.folders)
         {
 			Xml.Node* outline = new Xml.Node (null, "outline");
 			outline->new_prop ("title", folder.name);
 			outline->new_prop ("type", "folder");
-			
+
 			folder_node.set (folder.id, outline);
 			body->add_child (outline);
 		}

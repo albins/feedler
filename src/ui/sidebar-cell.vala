@@ -1,6 +1,6 @@
 /**
  * sidebar-cell.vala
- * 
+ *
  * Based on the work of Lucas Baudin <xapantu@gmail.com>
  * @author Daniel Kur <Daniel.M.Kur@gmail.com>
  * @see COPYING
@@ -8,13 +8,13 @@
 
 public class Feedler.SidebarCell : Gtk.CellRenderer
 {
-	public static string location = GLib.Environment.get_user_data_dir () + "/feedler/fav/";	
+	public static string location = GLib.Environment.get_user_data_dir () + "/feedler/fav/";
 	public enum Type { FOLDER, CHANNEL, ERROR; }
 	public int id { set; get; }
 	public string channel { set; get; }
 	public int unread { set; get; }
 	public Type type;
-	
+
 	double height_centered;
 
 	static void rounded (Cairo.Context cr, double x, double y, double w, double h)
@@ -24,7 +24,7 @@ public class Feedler.SidebarCell : Gtk.CellRenderer
 		cr.move_to (x+radius, y);
 		cr.arc (x+w-radius, y+radius, radius, GLib.Math.PI*1.5, GLib.Math.PI*2);
 		cr.arc (x+w-radius, y+h-radius, radius, 0, GLib.Math.PI*0.5);
-		cr.arc (x+radius,   y+h-radius, radius, GLib.Math.PI*0.5, GLib.Math.PI);	
+		cr.arc (x+radius,   y+h-radius, radius, GLib.Math.PI*0.5, GLib.Math.PI);
 		cr.arc (x+radius,   y+radius,   radius, GLib.Math.PI, GLib.Math.PI*1.5);
 	}
 
@@ -66,10 +66,10 @@ public class Feedler.SidebarCell : Gtk.CellRenderer
         font_medium.set_size (Pango.units_from_double (Pango.units_to_double (font_medium.get_size()) - 2));
         Pango.FontDescription font_bold = widget.get_pango_context ().get_font_description ();
         font_bold.set_weight (Pango.Weight.BOLD);
-		
+
 		double margin = 5.0;
 		height_centered = area.y + 4;
-		
+
         /* unread */
         if (unread > 0)
         {
@@ -86,7 +86,7 @@ public class Feedler.SidebarCell : Gtk.CellRenderer
             Gdk.cairo_set_source_rgba (cr, color_selected);
             Pango.cairo_show_layout (cr, layout);
 		}
-		
+
 		/* Channel */
         layout = widget.create_pango_layout (channel);
         if (type == Type.FOLDER)
@@ -100,7 +100,7 @@ public class Feedler.SidebarCell : Gtk.CellRenderer
         layout.set_width (Pango.units_from_double (area.width - margin));
         Gdk.cairo_set_source_rgba (cr, color_normal);
         Pango.cairo_show_layout (cr, layout);
-        
+
         /* Icon */
         if (type == Type.ERROR)
         {

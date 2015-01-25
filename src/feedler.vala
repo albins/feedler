@@ -1,6 +1,6 @@
 /**
  * feedler.vala
- * 
+ *
  * @author Daniel Kur <Daniel.M.Kur@gmail.com>
  * @see COPYING
  */
@@ -68,7 +68,7 @@ public class Feedler.App : Granite.Application
 		if (Feedler.SETTING.hide_start)
 			this.window.hide ();
 	}
-	
+
 	public static int main (string[] args)
 	{
 		Feedler.APP = new Feedler.App ();
